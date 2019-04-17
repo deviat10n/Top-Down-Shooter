@@ -1,0 +1,1106 @@
+﻿Log file open, 04/11/19 02:34:44
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: TheGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.434898
+LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/DirectX/x64).
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.566s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -dx12
+LogInit: Base Directory: D:/Epic Games/Unreal Engine/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.11-01.34.45:208][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.11-01.34.45:208][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.11-01.34.45:290][  0]LogHAL: Display: Platform has ~ 16 GB [17059885056 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.11-01.34.45:290][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.11-01.34.45:290][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.11-01.34.45:292][  0]LogInit: Computer: MSI
+[2019.04.11-01.34.45:292][  0]LogInit: User: tomje
+[2019.04.11-01.34.45:292][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.11-01.34.45:292][  0]LogInit: High frequency timer resolution =2.531252 MHz
+[2019.04.11-01.34.45:292][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.11-01.34.45:292][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.11-01.34.45:292][  0]LogMemory: Process Physical Memory: 104.25 MB used, 104.25 MB peak
+[2019.04.11-01.34.45:292][  0]LogMemory: Process Virtual Memory: 223.96 MB used, 223.96 MB peak
+[2019.04.11-01.34.45:292][  0]LogMemory: Physical Memory: 9344.38 MB used,  6925.20 MB free, 16269.57 MB total
+[2019.04.11-01.34.45:293][  0]LogMemory: Virtual Memory: 4783.01 MB used,  6925.20 MB free, 134217728.00 MB total
+[2019.04.11-01.34.46:200][  0]LogInit: Using OS detected language (en-US).
+[2019.04.11-01.34.46:200][  0]LogInit: Using OS detected locale (en-GB).
+[2019.04.11-01.34.46:204][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.11-01.34.47:077][  0]LogStreaming: Display: Took  0.877s to InitEngineTextLocalization.
+[2019.04.11-01.34.47:078][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.11-01.34.47:169][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.11-01.34.47:169][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.11-01.34.48:113][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2019.04.11-01.34.48:364][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce GTX 970M (Max supported Feature Level 12_1)
+[2019.04.11-01.34.48:364][  0]LogD3D12RHI: Adapter has 3032MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 1 output[s]
+[2019.04.11-01.34.48:382][  0]LogD3D12RHI: Found D3D12 adapter 1: Intel(R) HD Graphics 530 (Max supported Feature Level 12_1)
+[2019.04.11-01.34.48:382][  0]LogD3D12RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 0 output[s]
+[2019.04.11-01.34.48:391][  0]LogD3D12RHI: Found D3D12 adapter 2: Microsoft Basic Render Driver (Max supported Feature Level 12_1)
+[2019.04.11-01.34.48:391][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 0 output[s]
+[2019.04.11-01.34.48:391][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2019.04.11-01.34.48:471][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2019.04.11-01.34.48:629][  0]LogD3D12RHI: The system supports ID3D12Device1.
+[2019.04.11-01.34.48:629][  0]LogD3D12RHI: The system supports ID3D12Device2.
+[2019.04.11-01.34.48:718][  0]LogD3D12RHI: Warning: NumQueriesInBatch is not used in FD3D12QueryHeap::StartQueryBatch(), this helpful warning exists to remind you about that. Remove it when this is fixed.
+[2019.04.11-01.34.49:587][  0]LogD3D12RHI: Creating Pipeline Library from existing disk cache (975 KiB).
+[2019.04.11-01.34.49:595][  0]LogD3D12RHI: Reading 166 Graphics PSO(s) from the disk cache.
+[2019.04.11-01.34.49:596][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 17 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.11-01.34.49:596][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 19 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.11-01.34.49:596][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 15 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.11-01.34.49:597][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 13 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.11-01.34.49:597][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 19 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.11-01.34.49:598][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 23 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.11-01.34.49:598][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 21 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.11-01.34.49:598][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 13 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.11-01.34.49:599][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 15 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.11-01.34.49:599][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 13 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.11-01.34.49:599][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 17 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.11-01.34.49:600][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 15 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.11-01.34.49:601][  0]LogD3D12RHI: Reading 5 Compute PSO(s) from the disk cache.
+[2019.04.11-01.34.49:601][  0]LogD3D12RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.11-01.34.49:601][  0]LogWindows: EnumDisplayDevices:
+[2019.04.11-01.34.49:601][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.04.11-01.34.49:602][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.04.11-01.34.49:603][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.04.11-01.34.49:603][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.11-01.34.49:603][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2019.04.11-01.34.49:604][  0]LogD3D12RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.11-01.34.49:604][  0]LogD3D12RHI:      Driver Date: Unknown
+[2019.04.11-01.34.49:604][  0]LogRHI: Texture pool is 1623 MB (70% of 2319 MB)
+[2019.04.11-01.34.49:604][  0]LogD3D12RHI: Async texture creation enabled
+[2019.04.11-01.34.49:628][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (G:/28.03.19/the-game-player-mechanics/Intermediate/Shaders/WorkingDirectory/2192/).
+[2019.04.11-01.34.49:628][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tomje/AppData/Local/Temp/UnrealShaderWorkingDir/6037D4E944B8083619DF18804A0DDBBC/'.
+[2019.04.11-01.34.50:643][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.11-01.34.50:684][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.11-01.34.50:724][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.11-01.34.50:760][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.11-01.34.50:800][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.11-01.34.50:836][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.11-01.34.50:871][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.11-01.34.50:915][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.11-01.34.50:943][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.11-01.34.51:190][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-01.34.51:190][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-01.34.51:190][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-01.34.51:191][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-01.34.51:191][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-01.34.51:191][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-01.34.51:191][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-01.34.51:191][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-01.34.51:191][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-01.34.51:191][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-01.34.51:191][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-01.34.51:191][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-01.34.51:191][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-01.34.51:191][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-01.34.51:191][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-01.34.51:191][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-01.34.51:191][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-01.34.51:191][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-01.34.51:196][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.11-01.34.51:319][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.11-01.34.51:319][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.11-01.34.51:388][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.11-01.34.51:388][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.11-01.34.51:422][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.11-01.34.51:459][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.11-01.34.51:498][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.11-01.34.51:535][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.11-01.34.51:559][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.11-01.34.51:559][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.11-01.34.51:782][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.11-01.34.51:783][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.11-01.34.51:783][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.11-01.34.54:227][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.11-01.34.54:346][  0]LogDerivedDataCache: Loaded boot cache 0.12s 71MB C:/Users/tomje/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.11-01.34.54:347][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tomje/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.11-01.34.54:347][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/28.03.19/the-game-player-mechanics/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.11-01.34.54:347][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.11-01.34.54:347][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/28.03.19/the-game-player-mechanics/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.11-01.34.54:347][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.11-01.34.54:386][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.11-01.34.54:400][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tomje/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.11-01.34.54:400][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.11-01.34.54:400][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.11-01.34.54:451][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.11-01.34.54:454][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.11-01.34.54:456][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.11-01.34.54:712][  0]LogAssetRegistry: FAssetRegistry took 0.0322 seconds to start up
+[2019.04.11-01.34.55:548][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.11-01.34.55:888][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.11-01.34.55:900][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.11-01.34.55:900][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.11-01.34.55:900][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.11-01.34.55:900][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.11-01.34.55:935][  0]LogNetVersion: TheGame 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2075402516)
+[2019.04.11-01.34.58:505][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 1.245835 seconds
+[2019.04.11-01.34.58:516][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.11-01.34.58:517][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.04.11-01.34.58:517][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.11-01.35.01:638][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.11-01.35.01:655][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.11-01.35.05:207][  0]SourceControl: Source control is disabled
+[2019.04.11-01.35.05:207][  0]SourceControl: Source control is disabled
+[2019.04.11-01.35.05:213][  0]SourceControl: Source control is disabled
+[2019.04.11-01.35.05:216][  0]SourceControl: Source control is disabled
+[2019.04.11-01.35.05:583][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.11-01.35.06:046][  0]LogOcInput: OculusInput pre-init called
+[2019.04.11-01.35.06:190][  0]LogEngine: Initializing Engine...
+[2019.04.11-01.35.06:193][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2019.04.11-01.35.06:196][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.11-01.35.06:196][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.11-01.35.06:196][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.11-01.35.06:196][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.11-01.35.06:714][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.11-01.35.06:752][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.11-01.35.06:848][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.11-01.35.07:459][  0]LogInit: FAudioDevice initialized.
+[2019.04.11-01.35.07:459][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.11-01.35.07:742][  0]LogDerivedDataCache: Saved boot cache 0.28s 71MB C:/Users/tomje/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.11-01.35.07:743][  0]LogInit: Texture streaming: Enabled
+[2019.04.11-01.35.07:802][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.11-01.35.07:884][  0]LogInit: Transaction tracking system initialized
+[2019.04.11-01.35.07:996][  0]BlueprintLog: New page: Editor Load
+[2019.04.11-01.35.08:815][  0]LocalizationService: Localization service is disabled
+[2019.04.11-01.35.09:760][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.11-01.35.09:760][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.11-01.35.09:775][  0]LogFileCache: Scanning file cache for directory 'G:/28.03.19/the-game-player-mechanics/Content/' took 0.03s
+[2019.04.11-01.35.09:775][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.11-01.35.09:776][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.11-01.35.09:776][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.11-01.35.09:776][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.11-01.35.09:776][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.11-01.35.10:269][  0]SourceControl: Source control is disabled
+[2019.04.11-01.35.10:269][  0]Cmd: MAP LOAD FILE="G:/28.03.19/the-game-player-mechanics/Content/TopDownCPP/Maps/TheGameMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.11-01.35.10:730][  0]LightingResults: New page: Lighting Build
+[2019.04.11-01.35.10:738][  0]MapCheck: New page: Map Check
+[2019.04.11-01.35.10:739][  0]LightingResults: New page: Lighting Build
+[2019.04.11-01.35.13:898][  0]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.11-01.35.14:082][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.11-01.35.14:195][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.11-01.35.14:703][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 507.973ms to complete.
+[2019.04.11-01.35.14:704][  0]LogFileHelpers: Loading map 'TheGameMap' took 4.434
+[2019.04.11-01.35.15:715][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.35.15:757][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.35.15:776][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.35.15:793][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.35.15:956][  0]LogCollectionManager: Loaded 0 collections in 0.007675 seconds
+[2019.04.11-01.35.16:157][  0]LogFileCache: Scanning file cache for directory 'G:/28.03.19/the-game-player-mechanics/Saved/Collections/' took 0.01s
+[2019.04.11-01.35.16:157][  0]LogFileCache: Scanning file cache for directory 'G:/28.03.19/the-game-player-mechanics/Content/Developers/tomje/Collections/' took 0.01s
+[2019.04.11-01.35.16:157][  0]LogFileCache: Scanning file cache for directory 'G:/28.03.19/the-game-player-mechanics/Content/Collections/' took 0.01s
+[2019.04.11-01.35.16:157][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.04.11-01.35.16:189][  0]LogContentBrowser: Native class hierarchy populated in 0.0294 seconds. Added 2577 classes and 605 folders.
+[2019.04.11-01.35.16:395][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.04.11-01.35.17:464][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.04.11-01.35.17:561][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.04.11-01.35.19:429][  0]LogSlate: Took 0.000740 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.11-01.35.19:434][  0]LogSlate: Took 0.000607 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.11-01.35.19:540][  0]LogSlate: Took 0.026452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.11-01.35.20:382][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2019.04.11-01.35.20:640][  0]LogRenderer: Reallocating scene render targets to support 936x464 Format 10 NumSamples 1 (Frame:1).
+[2019.04.11-01.35.21:289][  0]LogSlate: Took 0.016498 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.11-01.35.21:793][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.04.11-01.35.21:794][  0]LogLoad: (Engine Initialization) Total time: 43.09 seconds
+[2019.04.11-01.35.21:794][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.11-01.35.21:845][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.11-01.35.21:846][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.11-01.35.22:243][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.11-01.35.22:948][  2]LogAssetRegistry: Asset discovery search completed in 28.2592 seconds
+[2019.04.11-01.35.22:951][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.11-01.35.22:951][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000102 seconds (updated 0 objects)
+[2019.04.11-01.35.23:464][  3]LogSlate: Took 0.000689 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.11-01.35.24:540][ 48]LogD3D12RHI: Warning: Constant Allocator had to grow! Consider making it larger to begin with. New size: 3145728 bytes
+[2019.04.11-01.42.00:262][958]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.11-01.42.00:398][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.42.00:417][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.11-01.42.00:597][958]PIE: New page: PIE session: TheGameMap (11 Apr 2019 03:42:00)
+[2019.04.11-01.42.00:618][958]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.11-01.42.00:765][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.147310s)
+[2019.04.11-01.42.00:766][958]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.11-01.42.00:781][958]LogPlayLevel: PIE: World Init took: (0.016453s)
+[2019.04.11-01.42.00:793][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.175382s)
+[2019.04.11-01.42.00:993][958]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.11-01.42.01:258][958]LogInit: FAudioDevice initialized.
+[2019.04.11-01.42.01:426][958]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.11-01.42.01:555][958]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.11-02.42.01
+[2019.04.11-01.42.01:610][958]LogWorld: Bringing up level for play took: 0.057980
+[2019.04.11-01.42.02:076][958]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0197 seconds. Added 10 classes and 0 folders.
+[2019.04.11-01.42.02:578][958]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap 2.087
+[2019.04.11-01.42.02:579][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.42.12:611][202]LogScript: Warning: Attempted to access Projectile_C_18 via property K2Node_Event_Other, but Projectile_C_18 is pending kill
+	Projectile_C /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap:PersistentLevel.Projectile_C_17
+	Function /Game/Projectile.Projectile_C:ExecuteUbergraph_Projectile:0035
+[2019.04.11-01.42.12:612][202]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_18 via property K2Node_Event_Other, but Projectile_C_18 is pending kill". Blueprint:  Projectile Function:  Execute Ubergraph Projectile Graph:  EventGraph Node:  Branch
+[2019.04.11-01.42.15:752][314]LogScript: Warning: Attempted to access Projectile_C_29 via property K2Node_Event_Other, but Projectile_C_29 is pending kill
+	Projectile_C /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap:PersistentLevel.Projectile_C_28
+	Function /Game/Projectile.Projectile_C:ExecuteUbergraph_Projectile:0035
+[2019.04.11-01.42.15:753][314]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_29 via property K2Node_Event_Other, but Projectile_C_29 is pending kill". Blueprint:  Projectile Function:  Execute Ubergraph Projectile Graph:  EventGraph Node:  Branch
+[2019.04.11-01.42.27:995][782]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.11-01.42.28:219][791]LogNet: Browse: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.42.28:227][791]LogLoad: LoadMap: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.42.28:428][791]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.11-01.42.28:477][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048834s)
+[2019.04.11-01.42.28:479][791]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.11-01.42.28:479][791]LogPlayLevel: PIE: World Init took: (0.001821s)
+[2019.04.11-01.42.28:479][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.051154s)
+[2019.04.11-01.42.28:479][791]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.11-01.42.28:483][791]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.11-02.42.28
+[2019.04.11-01.42.28:484][791]LogWorld: Bringing up level for play took: 0.002928
+[2019.04.11-01.42.28:508][791]LogLoad: Took 0.280225 seconds to LoadMap(/Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap)
+[2019.04.11-01.42.31:235][876]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.42.31:320][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.42.31:465][876]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.11-01.42.31:466][876]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.42.31:903][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.42.32:305][877]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.04.11-01.42.39:305][ 57]LogSlate: Window 'Message Log' being destroyed
+[2019.04.11-01.42.39:314][ 57]LogSlate: Window 'Message Log' being destroyed
+[2019.04.11-01.43.07:994][389]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.11-01.43.08:038][389]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.43.08:039][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.11-01.43.08:039][389]PIE: New page: PIE session: TheGameMap (11 Apr 2019 03:43:08)
+[2019.04.11-01.43.08:039][389]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.11-01.43.08:074][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035472s)
+[2019.04.11-01.43.08:076][389]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.11-01.43.08:076][389]LogPlayLevel: PIE: World Init took: (0.002464s)
+[2019.04.11-01.43.08:077][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.038336s)
+[2019.04.11-01.43.08:246][389]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.11-01.43.08:930][389]LogInit: FAudioDevice initialized.
+[2019.04.11-01.43.09:019][389]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.11-01.43.09:026][389]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.11-02.43.09
+[2019.04.11-01.43.09:026][389]LogWorld: Bringing up level for play took: 0.005352
+[2019.04.11-01.43.09:047][389]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap 0.556
+[2019.04.11-01.43.09:048][389]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.43.15:112][586]LogScript: Warning: Attempted to access Projectile_C_16 via property K2Node_Event_Other, but Projectile_C_16 is pending kill
+	Projectile_C /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap:PersistentLevel.Projectile_C_15
+	Function /Game/Projectile.Projectile_C:ExecuteUbergraph_Projectile:0035
+[2019.04.11-01.43.15:112][586]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_16 via property K2Node_Event_Other, but Projectile_C_16 is pending kill". Blueprint:  Projectile Function:  Execute Ubergraph Projectile Graph:  EventGraph Node:  Branch
+[2019.04.11-01.43.17:103][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.11-01.43.17:299][674]LogNet: Browse: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.43.17:300][674]LogLoad: LoadMap: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.43.17:423][674]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.11-01.43.17:469][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045787s)
+[2019.04.11-01.43.17:470][674]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.11-01.43.17:471][674]LogPlayLevel: PIE: World Init took: (0.001654s)
+[2019.04.11-01.43.17:471][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.047877s)
+[2019.04.11-01.43.17:471][674]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.11-01.43.17:475][674]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.11-02.43.17
+[2019.04.11-01.43.17:476][674]LogWorld: Bringing up level for play took: 0.002818
+[2019.04.11-01.43.17:485][674]LogLoad: Took 0.184293 seconds to LoadMap(/Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap)
+[2019.04.11-01.43.21:541][818]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.43.21:541][818]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.43.21:588][818]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.11-01.43.21:588][818]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.43.21:643][818]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.43.21:761][819]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.04.11-01.43.38:883][115]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.11-01.43.38:923][115]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.43.38:923][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.11-01.43.38:923][115]PIE: New page: PIE session: TheGameMap (11 Apr 2019 03:43:38)
+[2019.04.11-01.43.38:923][115]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.11-01.43.38:952][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029247s)
+[2019.04.11-01.43.38:954][115]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.11-01.43.38:954][115]LogPlayLevel: PIE: World Init took: (0.002234s)
+[2019.04.11-01.43.38:954][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.031873s)
+[2019.04.11-01.43.39:172][115]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.11-01.43.39:863][115]LogInit: FAudioDevice initialized.
+[2019.04.11-01.43.39:905][115]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.11-01.43.39:909][115]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.11-02.43.39
+[2019.04.11-01.43.39:909][115]LogWorld: Bringing up level for play took: 0.002914
+[2019.04.11-01.43.39:931][115]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap 1.439
+[2019.04.11-01.43.39:931][115]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.43.46:300][295]LogScript: Warning: Attempted to access Projectile_C_8 via property K2Node_Event_Other, but Projectile_C_8 is pending kill
+	Projectile_C /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap:PersistentLevel.Projectile_C_7
+	Function /Game/Projectile.Projectile_C:ExecuteUbergraph_Projectile:0035
+[2019.04.11-01.43.46:300][295]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_8 via property K2Node_Event_Other, but Projectile_C_8 is pending kill". Blueprint:  Projectile Function:  Execute Ubergraph Projectile Graph:  EventGraph Node:  Branch
+[2019.04.11-01.43.50:036][425]LogScript: Warning: Attempted to access Projectile_C_21 via property K2Node_Event_Other, but Projectile_C_21 is pending kill
+	Projectile_C /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap:PersistentLevel.Projectile_C_20
+	Function /Game/Projectile.Projectile_C:ExecuteUbergraph_Projectile:0035
+[2019.04.11-01.43.50:037][425]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_21 via property K2Node_Event_Other, but Projectile_C_21 is pending kill". Blueprint:  Projectile Function:  Execute Ubergraph Projectile Graph:  EventGraph Node:  Branch
+[2019.04.11-01.44.11:717][128]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.11-01.44.11:920][135]LogNet: Browse: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.44.11:921][135]LogLoad: LoadMap: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.44.11:994][135]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.11-01.44.12:024][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028693s)
+[2019.04.11-01.44.12:025][135]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.11-01.44.12:026][135]LogPlayLevel: PIE: World Init took: (0.001584s)
+[2019.04.11-01.44.12:026][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.030715s)
+[2019.04.11-01.44.12:026][135]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.11-01.44.12:033][135]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.11-02.44.12
+[2019.04.11-01.44.12:034][135]LogWorld: Bringing up level for play took: 0.006582
+[2019.04.11-01.44.12:043][135]LogLoad: Took 0.122130 seconds to LoadMap(/Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap)
+[2019.04.11-01.44.15:624][228]LogScript: Warning: Attempted to access Projectile_C_2 via property K2Node_Event_Other, but Projectile_C_2 is pending kill
+	Projectile_C /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap:PersistentLevel.Projectile_C_1
+	Function /Game/Projectile.Projectile_C:ExecuteUbergraph_Projectile:0035
+[2019.04.11-01.44.15:624][228]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_2 via property K2Node_Event_Other, but Projectile_C_2 is pending kill". Blueprint:  Projectile Function:  Execute Ubergraph Projectile Graph:  EventGraph Node:  Branch
+[2019.04.11-01.47.44:790][207]LogD3D12RHI: Warning: Constant Allocator had to grow! Consider making it larger to begin with. New size: 3145728 bytes
+[2019.04.11-01.47.55:888][240]LogD3D12RHI: Warning: Constant Allocator had to grow! Consider making it larger to begin with. New size: 4718592 bytes
+[2019.04.11-01.48.00:449][411]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.11-01.48.00:699][411]LogNet: Browse: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.48.00:699][411]LogLoad: LoadMap: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.48.00:759][411]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.11-01.48.00:790][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030038s)
+[2019.04.11-01.48.00:792][411]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.11-01.48.00:792][411]LogPlayLevel: PIE: World Init took: (0.002429s)
+[2019.04.11-01.48.00:792][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.032937s)
+[2019.04.11-01.48.00:792][411]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.11-01.48.00:797][411]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.11-02.48.00
+[2019.04.11-01.48.00:797][411]LogWorld: Bringing up level for play took: 0.003305
+[2019.04.11-01.48.00:807][411]LogLoad: Took 0.106764 seconds to LoadMap(/Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap)
+[2019.04.11-01.48.09:819][824]LogScript: Warning: Attempted to access Projectile_C_14 via property K2Node_Event_Other, but Projectile_C_14 is pending kill
+	Projectile_C /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap:PersistentLevel.Projectile_C_13
+	Function /Game/Projectile.Projectile_C:ExecuteUbergraph_Projectile:0035
+[2019.04.11-01.48.09:819][824]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_14 via property K2Node_Event_Other, but Projectile_C_14 is pending kill". Blueprint:  Projectile Function:  Execute Ubergraph Projectile Graph:  EventGraph Node:  Branch
+[2019.04.11-01.48.11:247][859]LogScript: Warning: Attempted to access Projectile_C_29 via property K2Node_Event_Other, but Projectile_C_29 is pending kill
+	Projectile_C /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap:PersistentLevel.Projectile_C_28
+	Function /Game/Projectile.Projectile_C:ExecuteUbergraph_Projectile:0035
+[2019.04.11-01.48.11:247][859]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_29 via property K2Node_Event_Other, but Projectile_C_29 is pending kill". Blueprint:  Projectile Function:  Execute Ubergraph Projectile Graph:  EventGraph Node:  Branch
+[2019.04.11-01.48.14:934][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.11-01.48.15:140][990]LogNet: Browse: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.48.15:142][990]LogLoad: LoadMap: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.48.15:255][990]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.11-01.48.15:283][990]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027323s)
+[2019.04.11-01.48.15:284][990]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.11-01.48.15:285][990]LogPlayLevel: PIE: World Init took: (0.001820s)
+[2019.04.11-01.48.15:285][990]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.029553s)
+[2019.04.11-01.48.15:301][990]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.11-01.48.15:318][990]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.11-02.48.15
+[2019.04.11-01.48.15:319][990]LogWorld: Bringing up level for play took: 0.003448
+[2019.04.11-01.48.15:327][990]LogLoad: Took 0.184933 seconds to LoadMap(/Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap)
+[2019.04.11-01.49.18:020][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.11-01.49.18:279][509]LogNet: Browse: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.49.18:279][509]LogLoad: LoadMap: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.49.18:338][509]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.11-01.49.18:368][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029674s)
+[2019.04.11-01.49.18:370][509]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.11-01.49.18:371][509]LogPlayLevel: PIE: World Init took: (0.002092s)
+[2019.04.11-01.49.18:371][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.032211s)
+[2019.04.11-01.49.18:371][509]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.11-01.49.18:374][509]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.11-02.49.18
+[2019.04.11-01.49.18:375][509]LogWorld: Bringing up level for play took: 0.002884
+[2019.04.11-01.49.18:384][509]LogLoad: Took 0.104300 seconds to LoadMap(/Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap)
+[2019.04.11-01.49.26:372][838]LogScript: Warning: Attempted to access Projectile_C_18 via property K2Node_Event_Other, but Projectile_C_18 is pending kill
+	Projectile_C /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap:PersistentLevel.Projectile_C_17
+	Function /Game/Projectile.Projectile_C:ExecuteUbergraph_Projectile:0035
+[2019.04.11-01.49.26:372][838]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_18 via property K2Node_Event_Other, but Projectile_C_18 is pending kill". Blueprint:  Projectile Function:  Execute Ubergraph Projectile Graph:  EventGraph Node:  Branch
+[2019.04.11-01.49.33:384][131]LogScript: Warning: Attempted to access Projectile_C_31 via property K2Node_Event_Other, but Projectile_C_31 is pending kill
+	Projectile_C /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap:PersistentLevel.Projectile_C_30
+	Function /Game/Projectile.Projectile_C:ExecuteUbergraph_Projectile:0035
+[2019.04.11-01.49.33:385][131]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_31 via property K2Node_Event_Other, but Projectile_C_31 is pending kill". Blueprint:  Projectile Function:  Execute Ubergraph Projectile Graph:  EventGraph Node:  Branch
+[2019.04.11-01.50.37:361][724]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.11-01.50.37:557][733]LogNet: Browse: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.50.37:579][733]LogLoad: LoadMap: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.50.37:643][733]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.11-01.50.37:666][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022786s)
+[2019.04.11-01.50.37:667][733]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.11-01.50.37:668][733]LogPlayLevel: PIE: World Init took: (0.001996s)
+[2019.04.11-01.50.37:668][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.025176s)
+[2019.04.11-01.50.37:668][733]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.11-01.50.37:671][733]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.11-02.50.37
+[2019.04.11-01.50.37:671][733]LogWorld: Bringing up level for play took: 0.001849
+[2019.04.11-01.50.37:677][733]LogLoad: Took 0.097801 seconds to LoadMap(/Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap)
+[2019.04.11-01.51.36:335][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.11-01.51.36:588][863]LogNet: Browse: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.51.36:588][863]LogLoad: LoadMap: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.51.36:649][863]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.11-01.51.36:675][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025847s)
+[2019.04.11-01.51.36:676][863]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.11-01.51.36:677][863]LogPlayLevel: PIE: World Init took: (0.002193s)
+[2019.04.11-01.51.36:677][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.028530s)
+[2019.04.11-01.51.36:677][863]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.11-01.51.36:682][863]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.11-02.51.36
+[2019.04.11-01.51.36:682][863]LogWorld: Bringing up level for play took: 0.002943
+[2019.04.11-01.51.36:689][863]LogLoad: Took 0.101073 seconds to LoadMap(/Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap)
+[2019.04.11-01.51.58:671][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.11-01.51.58:873][276]LogNet: Browse: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.51.58:874][276]LogLoad: LoadMap: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.51.58:925][276]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.11-01.51.58:945][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019550s)
+[2019.04.11-01.51.58:947][276]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.11-01.51.58:948][276]LogPlayLevel: PIE: World Init took: (0.002424s)
+[2019.04.11-01.51.58:948][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.022315s)
+[2019.04.11-01.51.58:948][276]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.11-01.51.58:951][276]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.11-02.51.58
+[2019.04.11-01.51.58:951][276]LogWorld: Bringing up level for play took: 0.001883
+[2019.04.11-01.51.58:956][276]LogLoad: Took 0.082488 seconds to LoadMap(/Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap)
+[2019.04.11-01.52.04:551][435]LogScript: Warning: Attempted to access Projectile_C_10 via property K2Node_Event_Other, but Projectile_C_10 is pending kill
+	Projectile_C /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap:PersistentLevel.Projectile_C_9
+	Function /Game/Projectile.Projectile_C:ExecuteUbergraph_Projectile:0035
+[2019.04.11-01.52.04:551][435]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_10 via property K2Node_Event_Other, but Projectile_C_10 is pending kill". Blueprint:  Projectile Function:  Execute Ubergraph Projectile Graph:  EventGraph Node:  Branch
+[2019.04.11-01.52.08:802][581]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.11-01.52.09:062][581]LogNet: Browse: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.52.09:062][581]LogLoad: LoadMap: /Game/TopDownCPP/Maps/TheGameMap
+[2019.04.11-01.52.09:119][581]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.11-01.52.09:140][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020055s)
+[2019.04.11-01.52.09:142][581]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.11-01.52.09:142][581]LogPlayLevel: PIE: World Init took: (0.002534s)
+[2019.04.11-01.52.09:143][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.022979s)
+[2019.04.11-01.52.09:143][581]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.11-01.52.09:146][581]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.11-02.52.09
+[2019.04.11-01.52.09:147][581]LogWorld: Bringing up level for play took: 0.002487
+[2019.04.11-01.52.09:152][581]LogLoad: Took 0.090232 seconds to LoadMap(/Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap)
+[2019.04.11-01.52.13:784][664]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.52.13:784][664]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.52.13:826][664]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.11-01.52.13:827][664]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.52.13:887][664]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.52.14:118][665]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.04.11-01.52.20:744][798]LogSlate: Window 'Message Log' being destroyed
+[2019.04.11-01.52.20:770][798]LogSlate: Window 'Message Log' being destroyed
+[2019.04.11-01.52.46:542][ 81]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.11-01.52.46:582][ 81]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.52.46:582][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.11-01.52.46:583][ 81]PIE: New page: PIE session: TheGameMap (11 Apr 2019 03:52:46)
+[2019.04.11-01.52.46:583][ 81]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.11-01.52.46:618][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034611s)
+[2019.04.11-01.52.46:620][ 81]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.11-01.52.46:620][ 81]LogPlayLevel: PIE: World Init took: (0.001976s)
+[2019.04.11-01.52.46:620][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.037007s)
+[2019.04.11-01.52.46:807][ 81]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.11-01.52.47:202][ 81]LogInit: FAudioDevice initialized.
+[2019.04.11-01.52.47:245][ 81]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.11-01.52.47:249][ 81]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.11-02.52.47
+[2019.04.11-01.52.47:250][ 81]LogWorld: Bringing up level for play took: 0.002805
+[2019.04.11-01.52.47:272][ 81]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap 0.779
+[2019.04.11-01.52.47:272][ 81]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.54.19:900][  2]LogScript: Warning: Attempted to access Projectile_C_40 via property K2Node_Event_Other, but Projectile_C_40 is pending kill
+	Projectile_C /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap:PersistentLevel.Projectile_C_39
+	Function /Game/Projectile.Projectile_C:ExecuteUbergraph_Projectile:0035
+[2019.04.11-01.54.19:900][  2]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_40 via property K2Node_Event_Other, but Projectile_C_40 is pending kill". Blueprint:  Projectile Function:  Execute Ubergraph Projectile Graph:  EventGraph Node:  Branch
+[2019.04.11-01.54.19:901][  2]LogScript: Warning: Attempted to access Projectile_C_43 via property K2Node_Event_Other, but Projectile_C_43 is pending kill
+	Projectile_C /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap:PersistentLevel.Projectile_C_44
+	Function /Game/Projectile.Projectile_C:ExecuteUbergraph_Projectile:0035
+[2019.04.11-01.54.19:901][  2]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_43 via property K2Node_Event_Other, but Projectile_C_43 is pending kill". Blueprint:  Projectile Function:  Execute Ubergraph Projectile Graph:  EventGraph Node:  Branch
+[2019.04.11-01.54.23:797][131]LogScript: Warning: Attempted to access Projectile_C_60 via property K2Node_Event_Other, but Projectile_C_60 is pending kill
+	Projectile_C /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap:PersistentLevel.Projectile_C_59
+	Function /Game/Projectile.Projectile_C:ExecuteUbergraph_Projectile:0035
+[2019.04.11-01.54.23:798][131]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_60 via property K2Node_Event_Other, but Projectile_C_60 is pending kill". Blueprint:  Projectile Function:  Execute Ubergraph Projectile Graph:  EventGraph Node:  Branch
+[2019.04.11-01.54.23:798][131]LogScript: Warning: Attempted to access Projectile_C_58 via property K2Node_Event_Other, but Projectile_C_58 is pending kill
+	Projectile_C /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap:PersistentLevel.Projectile_C_57
+	Function /Game/Projectile.Projectile_C:ExecuteUbergraph_Projectile:0035
+[2019.04.11-01.54.23:798][131]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_58 via property K2Node_Event_Other, but Projectile_C_58 is pending kill". Blueprint:  Projectile Function:  Execute Ubergraph Projectile Graph:  EventGraph Node:  Branch
+[2019.04.11-01.55.47:112][748]LogD3D12RHI: Warning: Constant Allocator had to grow! Consider making it larger to begin with. New size: 3145728 bytes
+[2019.04.11-01.55.52:330][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.11-01.55.52:517][ 22]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.55.52:519][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.55.52:566][ 22]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.11-01.55.52:566][ 22]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.55.52:625][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.55.52:746][ 23]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.04.11-01.55.54:129][ 82]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.11-01.55.54:172][ 82]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.55.54:172][ 82]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.11-01.55.54:172][ 82]PIE: New page: PIE session: TheGameMap (11 Apr 2019 03:55:54)
+[2019.04.11-01.55.54:172][ 82]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.11-01.55.54:200][ 82]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028632s)
+[2019.04.11-01.55.54:202][ 82]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.11-01.55.54:202][ 82]LogPlayLevel: PIE: World Init took: (0.001918s)
+[2019.04.11-01.55.54:202][ 82]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.030859s)
+[2019.04.11-01.55.54:331][ 82]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.11-01.55.54:590][ 82]LogInit: FAudioDevice initialized.
+[2019.04.11-01.55.54:634][ 82]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.11-01.55.54:637][ 82]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.11-02.55.54
+[2019.04.11-01.55.54:638][ 82]LogWorld: Bringing up level for play took: 0.002281
+[2019.04.11-01.55.54:656][ 82]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap 0.165
+[2019.04.11-01.55.54:657][ 82]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.56.11:360][723]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.56.11:361][723]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.56.11:410][723]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.11-01.56.11:410][723]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.56.11:562][723]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.56.11:899][724]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.04.11-01.56.25:968][956]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.11-01.56.26:181][967]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.11-01.56.26:220][967]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.56.26:220][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.11-01.56.26:220][967]PIE: New page: PIE session: TheGameMap (11 Apr 2019 03:56:26)
+[2019.04.11-01.56.26:220][967]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.11-01.56.26:246][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025204s)
+[2019.04.11-01.56.26:248][967]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.11-01.56.26:248][967]LogPlayLevel: PIE: World Init took: (0.002214s)
+[2019.04.11-01.56.26:248][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.027830s)
+[2019.04.11-01.56.26:381][967]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.11-01.56.26:649][967]LogInit: FAudioDevice initialized.
+[2019.04.11-01.56.26:691][967]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.11-01.56.26:695][967]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.11-02.56.26
+[2019.04.11-01.56.26:695][967]LogWorld: Bringing up level for play took: 0.002131
+[2019.04.11-01.56.26:713][967]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap 0.222
+[2019.04.11-01.56.26:714][967]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.56.42:289][545]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.56.42:290][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.56.42:339][545]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.11-01.56.42:340][545]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-01.56.42:483][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.56.42:549][546]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.04.11-03.33.22:497][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.11-05.40.22:300][729]LogHttp: Warning: 000001B902358CC0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.11-05.40.22:301][729]LogHttp: Warning: 000001B902358CC0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1b942333fa0 [can pipeline])
+[2019.04.11-05.40.22:301][729]LogHttp: Warning: 000001B902358CC0: libcurl info message cache 1 (Re-using existing connection! (#105) with host datarouter.ol.epicgames.com)
+[2019.04.11-05.40.22:301][729]LogHttp: Warning: 000001B902358CC0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.175.146.33) port 443 (#105))
+[2019.04.11-05.40.22:301][729]LogHttp: Warning: 000001B902358CC0: libcurl info message cache 3 (upload completely sent off: 393 out of 393 bytes)
+[2019.04.11-05.40.22:301][729]LogHttp: Warning: 000001B902358CC0: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.04.11-05.40.22:301][729]LogHttp: Warning: 000001B902358CC0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.04.11-05.40.22:301][729]LogHttp: Warning: 000001B902358CC0: libcurl info message cache 6 (Closing connection 105)
+[2019.04.11-05.40.22:301][729]LogHttp: Warning: 000001B902358CC0: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.04.11-05.40.22:302][729]LogHttp: Warning: 000001B902358CC0: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B19E49FBF-419B-C440-8B4C-979B6B88A4A1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=60bd872546dd76e5a4f4d6a8fa3b362f%7C55bb19e164c9466fbcadc0b2d9237978%7C3f0bbeaa-0fa8-46e9-9ba5-8effceb3e44e&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2019.04.11-05.40.22:302][729]LogHttp: Warning: 000001B902358CC0: libcurl info message cache 9 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.11-05.40.22:302][729]LogHttp: Warning: 000001B902358CC0: libcurl info message cache 10 (Closing connection 106)
+[2019.04.11-05.40.22:651][731]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.11-05.40.22:718][731]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-05.40.22:719][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.11-05.40.22:721][731]PIE: New page: PIE session: TheGameMap (11 Apr 2019 07:40:22)
+[2019.04.11-05.40.22:721][731]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.11-05.40.22:856][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.133967s)
+[2019.04.11-05.40.22:862][731]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.11-05.40.22:863][731]LogPlayLevel: PIE: World Init took: (0.006962s)
+[2019.04.11-05.40.22:863][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.141779s)
+[2019.04.11-05.40.23:056][731]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.11-05.40.23:454][731]LogInit: FAudioDevice initialized.
+[2019.04.11-05.40.23:498][731]LogLoad: Game class is 'FunctionalTestGameMode'
+[2019.04.11-05.40.23:504][731]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.11-06.40.23
+[2019.04.11-05.40.23:505][731]LogWorld: Bringing up level for play took: 0.005099
+[2019.04.11-05.40.23:526][731]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap 1.034
+[2019.04.11-05.40.23:527][731]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-05.40.59:910][441]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-05.40.59:910][441]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-05.40.59:966][441]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.11-05.40.59:967][441]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-05.41.00:121][441]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-05.41.00:207][442]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.04.11-05.41.04:651][603]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.11-05.41.29:644][399]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Player/Hud/Minimap.Minimap
+[2019.04.11-05.41.32:509][399]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.2541 seconds. Added 116 classes and 0 folders.
+[2019.04.11-05.41.36:636][399]LogSlate: Took 0.018874 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.11-05.41.44:675][636]LogEditorTransaction: Undo Remove Widget
+[2019.04.11-05.41.48:206][715]BlueprintLog: New page: Compile Minimap
+[2019.04.11-05.41.51:177][842]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.11-05.41.51:213][842]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-05.41.51:213][842]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.11-05.41.51:214][842]PIE: New page: PIE session: TheGameMap (11 Apr 2019 07:41:51)
+[2019.04.11-05.41.51:214][842]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.11-05.41.51:238][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024079s)
+[2019.04.11-05.41.51:239][842]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.11-05.41.51:240][842]LogPlayLevel: PIE: World Init took: (0.001625s)
+[2019.04.11-05.41.51:240][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.025971s)
+[2019.04.11-05.41.51:421][842]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.11-05.41.51:684][842]LogInit: FAudioDevice initialized.
+[2019.04.11-05.41.51:723][842]LogLoad: Game class is 'FunctionalTestGameMode'
+[2019.04.11-05.41.51:727][842]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.11-06.41.51
+[2019.04.11-05.41.51:727][842]LogWorld: Bringing up level for play took: 0.002370
+[2019.04.11-05.41.51:743][842]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap 1.252
+[2019.04.11-05.41.51:744][842]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-05.41.58:104][203]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.11-05.42.05:046][253]LogD3D12RHI: Warning: Constant Allocator had to grow! Consider making it larger to begin with. New size: 3145728 bytes
+[2019.04.11-05.42.34:368][650]LogHttp: Warning: 000001B992AEDE40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.11-05.42.34:369][650]LogHttp: Warning: 000001B992AEDE40: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.11-05.42.34:369][650]LogHttp: Warning: 000001B992AEDE40: libcurl info message cache 1 (Closing connection 107)
+[2019.04.11-05.42.40:361][908]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-05.42.40:362][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-05.42.40:414][908]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.11-05.42.40:415][908]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.11-05.42.40:534][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-05.42.40:592][909]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.04.11-05.42.42:071][965]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.11-05.43.11:751][113]LogSlate: Window 'Save Content' being destroyed
+[2019.04.11-05.43.13:568][114]LogSavePackage: Moving 'G:/28.03.19/the-game-player-mechanics/Saved/TheGameMap_Auto16D247F964941A1CB2C1926938B4838FC.tmp' to 'G:/28.03.19/the-game-player-mechanics/Saved/Autosaves/Game/TopDownCPP/Maps/TheGameMap_Auto1.umap'
+[2019.04.11-05.43.14:423][114]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TheGameMap' took 2.360
+[2019.04.11-05.43.14:424][114]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.360
+[2019.04.11-05.43.14:446][114]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/Hud/Minimap] ([1] browsable assets)...
+[2019.04.11-05.43.14:446][114]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Hud/Minimap]
+[2019.04.11-05.43.14:446][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Hud/Minimap" FILE="G:/28.03.19/the-game-player-mechanics/Saved/Autosaves/Game/Player/Hud/Minimap_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.04.11-05.43.14:531][114]LogSavePackage: Moving 'G:/28.03.19/the-game-player-mechanics/Saved/Minimap_Auto1EF2C62EF46641DF176EC5092A3171C0E.tmp' to 'G:/28.03.19/the-game-player-mechanics/Saved/Autosaves/Game/Player/Hud/Minimap_Auto1.uasset'
+[2019.04.11-05.43.14:534][114]LogFileHelpers: Auto-saving content packages took 0.089
+[2019.04.11-05.43.14:729][119]LogSceneUtils: Warning: Ran out of GPU queries! Results for this frame will be incomplete
+[2019.04.11-05.43.16:386][180]LogEditorTransaction: Undo Remove Widget
+[2019.04.11-05.43.18:047][226]BlueprintLog: New page: Compile Minimap
+[2019.04.11-05.43.21:370][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Hud/Minimap" FILE="G:/28.03.19/the-game-player-mechanics/Content/Player/Hud/Minimap.uasset" SILENT=true
+[2019.04.11-05.43.21:940][328]LogSavePackage: Moving 'G:/28.03.19/the-game-player-mechanics/Saved/Minimap03FB81244E8D8CF20D654D91D3A62029.tmp' to 'G:/28.03.19/the-game-player-mechanics/Content/Player/Hud/Minimap.uasset'
+[2019.04.11-05.43.22:918][363]LogSlate: Window 'Minimap' being destroyed
+[2019.04.11-05.43.22:930][363]LogSlate: Window 'Minimap' being destroyed
+[2019.04.11-05.43.26:162][532]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.04.11-05.43.33:752][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Maps/TheGameMap" FILE="G:/28.03.19/the-game-player-mechanics/Content/TopDownCPP/Maps/TheGameMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.11-05.43.34:341][881]LogSavePackage: Moving 'G:/28.03.19/the-game-player-mechanics/Saved/TheGameMap53DED93A456652E1FF96719E9F626901.tmp' to 'G:/28.03.19/the-game-player-mechanics/Content/TopDownCPP/Maps/TheGameMap.umap'
+[2019.04.11-05.43.34:902][881]LogFileHelpers: Saving map 'TheGameMap' took 1.813
+[2019.04.11-05.43.37:348][894]LogSlate: Window 'TheGame - Unreal Editor' being destroyed
+[2019.04.11-05.43.37:696][895]Cmd: QUIT_EDITOR
+[2019.04.11-05.43.38:531][895]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.11-05.43.38:567][895]LogExit: Preparing to exit.
+[2019.04.11-05.43.39:529][895]LogExit: Editor shut down
+[2019.04.11-05.43.39:531][895]LogExit: Transaction tracking system shut down
+[2019.04.11-05.43.40:381][895]LogExit: Object subsystem successfully closed.
+[2019.04.11-05.43.40:437][895]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.04.11-05.43.40:666][895]LogD3D12RHI: Added 12 new Graphics PSO(s) to the disk cache.
+[2019.04.11-05.43.40:666][895]LogD3D12RHI: Closing Graphics PSO disk cache. Cache contains 178 PSO(s).
+[2019.04.11-05.43.40:669][895]LogD3D12RHI: Closing Compute PSO disk cache. Cache contains 5 PSO(s).
+[2019.04.11-05.43.40:672][895]LogD3D12RHI: Serializing Pipeline Library to disk (1045 KiB).
+[2019.04.11-05.43.40:788][895]LogD3D12RHI: ~FD3D12DynamicRHI
+[2019.04.11-05.43.40:924][895]LogModuleManager: Shutting down and abandoning module SequencerWidgets (622)
+[2019.04.11-05.43.40:924][895]LogModuleManager: Shutting down and abandoning module BlueprintGraph (620)
+[2019.04.11-05.43.40:925][895]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (618)
+[2019.04.11-05.43.40:925][895]LogModuleManager: Shutting down and abandoning module Voice (616)
+[2019.04.11-05.43.40:925][895]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (614)
+[2019.04.11-05.43.40:925][895]LogModuleManager: Shutting down and abandoning module SceneOutliner (612)
+[2019.04.11-05.43.40:925][895]LogModuleManager: Shutting down and abandoning module AddContentDialog (610)
+[2019.04.11-05.43.40:938][895]LogModuleManager: Shutting down and abandoning module WidgetCarousel (609)
+[2019.04.11-05.43.40:938][895]LogModuleManager: Shutting down and abandoning module EditorWidgets (606)
+[2019.04.11-05.43.40:938][895]LogModuleManager: Shutting down and abandoning module CollectionManager (604)
+[2019.04.11-05.43.40:939][895]LogModuleManager: Shutting down and abandoning module StatsViewer (602)
+[2019.04.11-05.43.40:939][895]LogModuleManager: Shutting down and abandoning module FoliageEdit (600)
+[2019.04.11-05.43.40:939][895]LogModuleManager: Shutting down and abandoning module LandscapeEditor (598)
+[2019.04.11-05.43.40:939][895]LogModuleManager: Shutting down and abandoning module MeshPaintMode (596)
+[2019.04.11-05.43.40:939][895]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (594)
+[2019.04.11-05.43.40:939][895]LogModuleManager: Shutting down and abandoning module ActorPickerMode (592)
+[2019.04.11-05.43.40:939][895]LogModuleManager: Shutting down and abandoning module GeometryMode (590)
+[2019.04.11-05.43.40:940][895]LogModuleManager: Shutting down and abandoning module TextureAlignMode (588)
+[2019.04.11-05.43.40:940][895]LogModuleManager: Shutting down and abandoning module BspMode (586)
+[2019.04.11-05.43.40:940][895]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (584)
+[2019.04.11-05.43.40:940][895]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (582)
+[2019.04.11-05.43.40:940][895]LogModuleManager: Shutting down and abandoning module AutomationWorker (580)
+[2019.04.11-05.43.40:940][895]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (578)
+[2019.04.11-05.43.40:940][895]LogModuleManager: Shutting down and abandoning module SequenceRecorder (577)
+[2019.04.11-05.43.40:940][895]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (574)
+[2019.04.11-05.43.40:940][895]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (572)
+[2019.04.11-05.43.40:941][895]LogModuleManager: Shutting down and abandoning module PlacementMode (571)
+[2019.04.11-05.43.40:941][895]LogModuleManager: Shutting down and abandoning module MaterialEditor (570)
+[2019.04.11-05.43.40:941][895]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (566)
+[2019.04.11-05.43.40:941][895]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (564)
+[2019.04.11-05.43.40:941][895]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (562)
+[2019.04.11-05.43.40:941][895]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (560)
+[2019.04.11-05.43.40:941][895]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (558)
+[2019.04.11-05.43.40:941][895]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (556)
+[2019.04.11-05.43.40:941][895]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (554)
+[2019.04.11-05.43.40:942][895]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (552)
+[2019.04.11-05.43.40:942][895]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (550)
+[2019.04.11-05.43.40:942][895]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (548)
+[2019.04.11-05.43.40:942][895]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (546)
+[2019.04.11-05.43.40:942][895]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (544)
+[2019.04.11-05.43.40:942][895]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (542)
+[2019.04.11-05.43.40:942][895]LogModuleManager: Shutting down and abandoning module CharacterAI (540)
+[2019.04.11-05.43.40:942][895]LogModuleManager: Shutting down and abandoning module SmartSnapping (538)
+[2019.04.11-05.43.40:942][895]LogModuleManager: Shutting down and abandoning module SessionServices (536)
+[2019.04.11-05.43.40:942][895]LogModuleManager: Shutting down and abandoning module ViewportSnapping (534)
+[2019.04.11-05.43.40:942][895]LogModuleManager: Shutting down and abandoning module ViewportInteraction (532)
+[2019.04.11-05.43.40:942][895]LogModuleManager: Shutting down and abandoning module ClothPainter (530)
+[2019.04.11-05.43.40:943][895]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (529)
+[2019.04.11-05.43.40:943][895]LogModuleManager: Shutting down and abandoning module LogVisualizer (526)
+[2019.04.11-05.43.40:943][895]LogModuleManager: Shutting down and abandoning module IntroTutorials (524)
+[2019.04.11-05.43.40:943][895]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (523)
+[2019.04.11-05.43.40:943][895]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (520)
+[2019.04.11-05.43.40:944][895]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (518)
+[2019.04.11-05.43.40:944][895]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (516)
+[2019.04.11-05.43.40:944][895]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (514)
+[2019.04.11-05.43.40:944][895]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (513)
+[2019.04.11-05.43.42:451][895]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (510)
+[2019.04.11-05.43.42:451][895]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (508)
+[2019.04.11-05.43.42:451][895]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (506)
+[2019.04.11-05.43.42:451][895]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (504)
+[2019.04.11-05.43.42:451][895]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
+[2019.04.11-05.43.42:451][895]LogModuleManager: Shutting down and abandoning module MergeActors (500)
+[2019.04.11-05.43.42:451][895]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
+[2019.04.11-05.43.42:451][895]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
+[2019.04.11-05.43.42:451][895]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
+[2019.04.11-05.43.42:451][895]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
+[2019.04.11-05.43.42:452][895]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
+[2019.04.11-05.43.42:452][895]LogModuleManager: Shutting down and abandoning module XmlParser (488)
+[2019.04.11-05.43.42:452][895]LogModuleManager: Shutting down and abandoning module Blutility (486)
+[2019.04.11-05.43.42:452][895]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
+[2019.04.11-05.43.42:452][895]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
+[2019.04.11-05.43.42:452][895]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
+[2019.04.11-05.43.42:453][895]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
+[2019.04.11-05.43.42:453][895]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
+[2019.04.11-05.43.42:453][895]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
+[2019.04.11-05.43.42:453][895]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
+[2019.04.11-05.43.42:453][895]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
+[2019.04.11-05.43.42:453][895]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
+[2019.04.11-05.43.42:520][895]LogModuleManager: Shutting down and abandoning module AutomationController (466)
+[2019.04.11-05.43.42:520][895]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
+[2019.04.11-05.43.42:520][895]LogModuleManager: Shutting down and abandoning module Layers (462)
+[2019.04.11-05.43.42:520][895]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
+[2019.04.11-05.43.42:520][895]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
+[2019.04.11-05.43.42:520][895]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
+[2019.04.11-05.43.42:521][895]LogModuleManager: Shutting down and abandoning module Persona (454)
+[2019.04.11-05.43.42:521][895]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
+[2019.04.11-05.43.42:521][895]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
+[2019.04.11-05.43.42:521][895]LogModuleManager: Shutting down and abandoning module Kismet (448)
+[2019.04.11-05.43.42:531][895]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
+[2019.04.11-05.43.42:531][895]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
+[2019.04.11-05.43.42:534][895]LogModuleManager: Shutting down and abandoning module Toolbox (442)
+[2019.04.11-05.43.42:534][895]LogModuleManager: Shutting down and abandoning module DesktopPlatform (441)
+[2019.04.11-05.43.42:534][895]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.04.11-05.43.42:534][895]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.04.11-05.43.42:534][895]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.04.11-05.43.42:534][895]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.04.11-05.43.42:534][895]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.04.11-05.43.42:534][895]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.04.11-05.43.42:535][895]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.04.11-05.43.42:535][895]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.04.11-05.43.42:535][895]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.04.11-05.43.42:535][895]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.04.11-05.43.42:535][895]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.04.11-05.43.42:535][895]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.04.11-05.43.42:535][895]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.04.11-05.43.42:535][895]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.04.11-05.43.42:535][895]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.04.11-05.43.42:535][895]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.04.11-05.43.42:535][895]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.04.11-05.43.42:535][895]LogModuleManager: Shutting down and abandoning module ProfilerService (404)
+[2019.04.11-05.43.42:697][895]LogModuleManager: Shutting down and abandoning module TaskGraph (402)
+[2019.04.11-05.43.42:697][895]LogModuleManager: Shutting down and abandoning module SteamVRController (400)
+[2019.04.11-05.43.42:697][895]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (398)
+[2019.04.11-05.43.42:697][895]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (396)
+[2019.04.11-05.43.42:697][895]LogModuleManager: Shutting down and abandoning module OculusInput (394)
+[2019.04.11-05.43.42:697][895]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (392)
+[2019.04.11-05.43.42:697][895]LogModuleManager: Shutting down and abandoning module EditableMesh (390)
+[2019.04.11-05.43.42:697][895]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (388)
+[2019.04.11-05.43.42:697][895]LogModuleManager: Shutting down and abandoning module CableComponent (386)
+[2019.04.11-05.43.42:697][895]LogModuleManager: Shutting down and abandoning module AudioCapture (384)
+[2019.04.11-05.43.42:697][895]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (382)
+[2019.04.11-05.43.42:697][895]LogModuleManager: Shutting down and abandoning module AndroidPermission (380)
+[2019.04.11-05.43.42:697][895]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (378)
+[2019.04.11-05.43.42:697][895]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (376)
+[2019.04.11-05.43.42:697][895]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (374)
+[2019.04.11-05.43.42:697][895]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
+[2019.04.11-05.43.42:698][895]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
+[2019.04.11-05.43.42:698][895]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
+[2019.04.11-05.43.42:706][895]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2019.04.11-05.43.42:706][895]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2019.04.11-05.43.42:706][895]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2019.04.11-05.43.42:706][895]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2019.04.11-05.43.42:706][895]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2019.04.11-05.43.42:706][895]LogModuleManager: Shutting down and abandoning module AppleImageUtils (356)
+[2019.04.11-05.43.42:706][895]LogModuleManager: Shutting down and abandoning module AlembicImporter (354)
+[2019.04.11-05.43.42:706][895]LogModuleManager: Shutting down and abandoning module AlembicLibrary (353)
+[2019.04.11-05.43.42:706][895]LogModuleManager: Shutting down and abandoning module GeometryCache (352)
+[2019.04.11-05.43.42:706][895]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (351)
+[2019.04.11-05.43.42:706][895]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (346)
+[2019.04.11-05.43.42:706][895]LogModuleManager: Shutting down and abandoning module DatasmithContent (344)
+[2019.04.11-05.43.42:725][895]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (342)
+[2019.04.11-05.43.42:725][895]LogModuleManager: Shutting down and abandoning module PluginBrowser (340)
+[2019.04.11-05.43.42:725][895]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (338)
+[2019.04.11-05.43.42:725][895]LogModuleManager: Shutting down and abandoning module PolygonModeling (336)
+[2019.04.11-05.43.42:725][895]LogModuleManager: Shutting down and abandoning module MeshEditor (334)
+[2019.04.11-05.43.42:725][895]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (332)
+[2019.04.11-05.43.42:725][895]LogModuleManager: Shutting down and abandoning module CryptoKeys (330)
+[2019.04.11-05.43.42:725][895]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (328)
+[2019.04.11-05.43.42:725][895]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (326)
+[2019.04.11-05.43.42:726][895]LogModuleManager: Shutting down and abandoning module UObjectPlugin (324)
+[2019.04.11-05.43.42:726][895]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (322)
+[2019.04.11-05.43.42:726][895]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (320)
+[2019.04.11-05.43.42:726][895]LogModuleManager: Shutting down and abandoning module GitSourceControl (318)
+[2019.04.11-05.43.42:726][895]LogModuleManager: Shutting down and abandoning module SourceControl (317)
+[2019.04.11-05.43.42:726][895]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (314)
+[2019.04.11-05.43.42:726][895]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (312)
+[2019.04.11-05.43.42:726][895]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (310)
+[2019.04.11-05.43.42:726][895]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (308)
+[2019.04.11-05.43.42:727][895]LogModuleManager: Shutting down and abandoning module Paper2DEditor (306)
+[2019.04.11-05.43.42:727][895]LogModuleManager: Shutting down and abandoning module MeshPaint (305)
+[2019.04.11-05.43.42:727][895]LogModuleManager: Shutting down and abandoning module TheGame (302)
+[2019.04.11-05.43.42:727][895]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (300)
+[2019.04.11-05.43.42:727][895]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (298)
+[2019.04.11-05.43.42:727][895]LogModuleManager: Shutting down and abandoning module PhysXVehicles (296)
+[2019.04.11-05.43.42:727][895]LogModuleManager: Shutting down and abandoning module OculusEditor (294)
+[2019.04.11-05.43.42:727][895]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (292)
+[2019.04.11-05.43.42:728][895]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (290)
+[2019.04.11-05.43.42:728][895]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (288)
+[2019.04.11-05.43.42:728][895]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2019.04.11-05.43.42:728][895]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2019.04.11-05.43.42:829][895]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2019.04.11-05.43.42:930][895]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (280)
+[2019.04.11-05.43.42:930][895]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
+[2019.04.11-05.43.42:930][895]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
+[2019.04.11-05.43.42:930][895]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
+[2019.04.11-05.43.42:930][895]LogModuleManager: Shutting down and abandoning module DataValidation (272)
+[2019.04.11-05.43.42:930][895]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
+[2019.04.11-05.43.42:930][895]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2019.04.11-05.43.42:932][895]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2019.04.11-05.43.42:932][895]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
+[2019.04.11-05.43.42:933][895]LogModuleManager: Shutting down and abandoning module MainFrame (264)
+[2019.04.11-05.43.42:933][895]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2019.04.11-05.43.42:967][895]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
+[2019.04.11-05.43.42:972][895]LogModuleManager: Shutting down and abandoning module TreeMap (257)
+[2019.04.11-05.43.42:972][895]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (254)
+[2019.04.11-05.43.42:972][895]LogModuleManager: Shutting down and abandoning module AISupportModule (252)
+[2019.04.11-05.43.42:972][895]LogModuleManager: Shutting down and abandoning module Paper2D (250)
+[2019.04.11-05.43.42:972][895]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
+[2019.04.11-05.43.42:972][895]LogModuleManager: Shutting down and abandoning module WmfMedia (246)
+[2019.04.11-05.43.42:975][895]LogModuleManager: Shutting down and abandoning module Media (245)
+[2019.04.11-05.43.42:982][895]LogModuleManager: Shutting down and abandoning module PacketHandler (242)
+[2019.04.11-05.43.42:982][895]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (240)
+[2019.04.11-05.43.42:982][895]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (238)
+[2019.04.11-05.43.42:982][895]LogModuleManager: Shutting down and abandoning module MediaAssets (236)
+[2019.04.11-05.43.42:982][895]LogModuleManager: Shutting down and abandoning module Overlay (234)
+[2019.04.11-05.43.42:982][895]LogModuleManager: Shutting down and abandoning module OverlayEditor (233)
+[2019.04.11-05.43.42:982][895]LogModuleManager: Shutting down and abandoning module VREditor (230)
+[2019.04.11-05.43.42:982][895]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
+[2019.04.11-05.43.42:983][895]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
+[2019.04.11-05.43.42:983][895]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
+[2019.04.11-05.43.42:983][895]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
+[2019.04.11-05.43.42:983][895]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
+[2019.04.11-05.43.42:983][895]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
+[2019.04.11-05.43.42:983][895]LogModuleManager: Shutting down and abandoning module UMG (216)
+[2019.04.11-05.43.42:983][895]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
+[2019.04.11-05.43.42:983][895]LogModuleManager: Shutting down and abandoning module Sequencer (214)
+[2019.04.11-05.43.42:983][895]LogModuleManager: Shutting down and abandoning module MessageLog (211)
+[2019.04.11-05.43.42:983][895]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
+[2019.04.11-05.43.42:983][895]LogModuleManager: Shutting down and abandoning module Slate (204)
+[2019.04.11-05.43.42:984][895]LogModuleManager: Shutting down and abandoning module EditorStyle (202)
+[2019.04.11-05.43.42:988][895]LogModuleManager: Shutting down and abandoning module MRMesh (200)
+[2019.04.11-05.43.42:988][895]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (198)
+[2019.04.11-05.43.42:988][895]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (196)
+[2019.04.11-05.43.42:989][895]LogModuleManager: Shutting down and abandoning module XAudio2 (194)
+[2019.04.11-05.43.42:989][895]LogModuleManager: Shutting down and abandoning module Networking (192)
+[2019.04.11-05.43.42:989][895]LogModuleManager: Shutting down and abandoning module Core (190)
+[2019.04.11-05.43.42:989][895]LogModuleManager: Shutting down and abandoning module LevelSequence (188)
+[2019.04.11-05.43.42:989][895]LogModuleManager: Shutting down and abandoning module KismetCompiler (186)
+[2019.04.11-05.43.42:989][895]LogModuleManager: Shutting down and abandoning module MeshUtilities (184)
+[2019.04.11-05.43.42:989][895]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (183)
+[2019.04.11-05.43.42:989][895]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (182)
+[2019.04.11-05.43.42:989][895]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (181)
+[2019.04.11-05.43.42:989][895]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (179)
+[2019.04.11-05.43.42:989][895]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (177)
+[2019.04.11-05.43.42:989][895]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
+[2019.04.11-05.43.42:989][895]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
+[2019.04.11-05.43.42:989][895]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (167)
+[2019.04.11-05.43.42:991][895]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
+[2019.04.11-05.43.43:055][895]LogDerivedDataCache: Shutdown
+[2019.04.11-05.43.43:055][895]LogModuleManager: Shutting down and abandoning module XGEController (162)
+[2019.04.11-05.43.43:056][895]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
+[2019.04.11-05.43.43:056][895]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
+[2019.04.11-05.43.43:056][895]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
+[2019.04.11-05.43.43:056][895]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
+[2019.04.11-05.43.43:056][895]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
+[2019.04.11-05.43.43:056][895]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
+[2019.04.11-05.43.43:056][895]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
+[2019.04.11-05.43.43:057][895]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
+[2019.04.11-05.43.43:057][895]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
+[2019.04.11-05.43.43:057][895]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
+[2019.04.11-05.43.43:057][895]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
+[2019.04.11-05.43.43:057][895]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
+[2019.04.11-05.43.43:057][895]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
+[2019.04.11-05.43.43:057][895]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
+[2019.04.11-05.43.43:057][895]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
+[2019.04.11-05.43.43:057][895]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
+[2019.04.11-05.43.43:057][895]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2019.04.11-05.43.43:058][895]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
+[2019.04.11-05.43.43:058][895]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
+[2019.04.11-05.43.43:058][895]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
+[2019.04.11-05.43.43:058][895]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
+[2019.04.11-05.43.43:058][895]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
+[2019.04.11-05.43.43:074][895]LogModuleManager: Shutting down and abandoning module Messaging (117)
+[2019.04.11-05.43.43:074][895]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
+[2019.04.11-05.43.43:085][895]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
+[2019.04.11-05.43.43:085][895]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2019.04.11-05.43.43:165][895]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
+[2019.04.11-05.43.43:165][895]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
+[2019.04.11-05.43.43:165][895]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
+[2019.04.11-05.43.43:165][895]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
+[2019.04.11-05.43.43:165][895]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
+[2019.04.11-05.43.43:166][895]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
+[2019.04.11-05.43.43:166][895]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
+[2019.04.11-05.43.43:166][895]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
+[2019.04.11-05.43.43:166][895]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
+[2019.04.11-05.43.43:166][895]LogModuleManager: Shutting down and abandoning module InputCore (90)
+[2019.04.11-05.43.43:166][895]LogModuleManager: Shutting down and abandoning module Settings (88)
+[2019.04.11-05.43.43:166][895]LogModuleManager: Shutting down and abandoning module PhysXCooking (86)
+[2019.04.11-05.43.43:166][895]LogModuleManager: Shutting down and abandoning module SteamVR (84)
+[2019.04.11-05.43.43:166][895]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
+[2019.04.11-05.43.43:166][895]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2019.04.11-05.43.43:166][895]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
+[2019.04.11-05.43.43:167][895]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
+[2019.04.11-05.43.43:167][895]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2019.04.11-05.43.43:174][895]LogModuleManager: Shutting down and abandoning module XMPP (67)
+[2019.04.11-05.43.43:174][895]LogModuleManager: Shutting down and abandoning module WebSockets (66)
+[2019.04.11-05.43.43:199][895]LogModuleManager: Shutting down and abandoning module HTTP (63)
+[2019.04.11-05.43.43:199][895]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.04.11-05.43.43:199][895]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B19E49FBF-419B-C440-8B4C-979B6B88A4A1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=60bd872546dd76e5a4f4d6a8fa3b362f%7C55bb19e164c9466fbcadc0b2d9237978%7C3f0bbeaa-0fa8-46e9-9ba5-8effceb3e44e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.04.11-05.43.43:199][895]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.04.11-05.43.43:700][895]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.04.11-05.43.44:200][895]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.04.11-05.43.44:701][895]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.04.11-05.43.45:202][895]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.04.11-05.43.45:702][895]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.04.11-05.43.46:203][895]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.04.11-05.43.46:704][895]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.04.11-05.43.47:204][895]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.04.11-05.43.47:705][895]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.04.11-05.43.48:206][895]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.04.11-05.43.48:706][895]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.04.11-05.43.49:207][895]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.04.11-05.43.49:708][895]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.04.11-05.43.50:208][895]LogHttp: Warning: 000001B96E495300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.11-05.43.50:208][895]LogHttp: Warning: 000001B96E495300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.11-05.43.50:208][895]LogHttp: Warning: 000001B96E495300: libcurl info message cache 1 (Closing connection 108)
+[2019.04.11-05.43.50:231][895]LogModuleManager: Shutting down and abandoning module SSL (62)
+[2019.04.11-05.43.50:234][895]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (58)
+[2019.04.11-05.43.50:234][895]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (56)
+[2019.04.11-05.43.50:234][895]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.04.11-05.43.50:234][895]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.04.11-05.43.50:234][895]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.04.11-05.43.50:234][895]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.04.11-05.43.50:234][895]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (46)
+[2019.04.11-05.43.50:234][895]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.04.11-05.43.50:234][895]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.04.11-05.43.50:235][895]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.04.11-05.43.50:235][895]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.04.11-05.43.50:235][895]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.04.11-05.43.50:235][895]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.04.11-05.43.50:235][895]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.04.11-05.43.50:235][895]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.04.11-05.43.50:236][895]LogModuleManager: Shutting down and abandoning module ShaderCore (30)
+[2019.04.11-05.43.50:236][895]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.04.11-05.43.50:236][895]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.04.11-05.43.50:238][895]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.04.11-05.43.50:238][895]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.04.11-05.43.50:238][895]LogModuleManager: Shutting down and abandoning module D3D12RHI (20)
+[2019.04.11-05.43.50:241][895]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.04.11-05.43.50:241][895]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.04.11-05.43.50:241][895]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.04.11-05.43.50:241][895]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.04.11-05.43.50:241][895]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.04.11-05.43.50:241][895]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.04.11-05.43.50:241][895]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.04.11-05.43.50:241][895]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.04.11-05.43.50:242][895]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.04.11-05.43.50:259][895]LogExit: Exiting.
+[2019.04.11-05.43.50:312][895]Log file closed, 04/11/19 06:43:50

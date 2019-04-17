@@ -1,0 +1,596 @@
+﻿Log file open, 04/10/19 16:23:04
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: TheGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.483758
+LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/DirectX/x64).
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.581s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -dx12
+LogInit: Base Directory: D:/Epic Games/Unreal Engine/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.10-15.23.05:570][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.10-15.23.05:570][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.10-15.23.05:659][  0]LogHAL: Display: Platform has ~ 16 GB [17059885056 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.10-15.23.05:659][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.10-15.23.05:659][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.10-15.23.05:660][  0]LogInit: Computer: MSI
+[2019.04.10-15.23.05:660][  0]LogInit: User: tomje
+[2019.04.10-15.23.05:660][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.10-15.23.05:660][  0]LogInit: High frequency timer resolution =2.531251 MHz
+[2019.04.10-15.23.05:661][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.10-15.23.05:661][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.10-15.23.05:661][  0]LogMemory: Process Physical Memory: 104.15 MB used, 104.15 MB peak
+[2019.04.10-15.23.05:661][  0]LogMemory: Process Virtual Memory: 223.97 MB used, 223.97 MB peak
+[2019.04.10-15.23.05:661][  0]LogMemory: Physical Memory: 7656.89 MB used,  8612.69 MB free, 16269.57 MB total
+[2019.04.10-15.23.05:661][  0]LogMemory: Virtual Memory: 4783.01 MB used,  8612.69 MB free, 134217728.00 MB total
+[2019.04.10-15.23.06:518][  0]LogInit: Using OS detected language (en-US).
+[2019.04.10-15.23.06:518][  0]LogInit: Using OS detected locale (en-GB).
+[2019.04.10-15.23.06:521][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.10-15.23.07:291][  0]LogStreaming: Display: Took  0.773s to InitEngineTextLocalization.
+[2019.04.10-15.23.07:291][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.10-15.23.07:362][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.10-15.23.07:362][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.10-15.23.08:154][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2019.04.10-15.23.08:361][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce GTX 970M (Max supported Feature Level 12_1)
+[2019.04.10-15.23.08:361][  0]LogD3D12RHI: Adapter has 3032MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 1 output[s]
+[2019.04.10-15.23.08:379][  0]LogD3D12RHI: Found D3D12 adapter 1: Intel(R) HD Graphics 530 (Max supported Feature Level 12_1)
+[2019.04.10-15.23.08:379][  0]LogD3D12RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 0 output[s]
+[2019.04.10-15.23.08:419][  0]LogD3D12RHI: Found D3D12 adapter 2: Microsoft Basic Render Driver (Max supported Feature Level 12_1)
+[2019.04.10-15.23.08:419][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 0 output[s]
+[2019.04.10-15.23.08:419][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2019.04.10-15.23.08:503][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2019.04.10-15.23.08:630][  0]LogD3D12RHI: The system supports ID3D12Device1.
+[2019.04.10-15.23.08:630][  0]LogD3D12RHI: The system supports ID3D12Device2.
+[2019.04.10-15.23.08:710][  0]LogD3D12RHI: Warning: NumQueriesInBatch is not used in FD3D12QueryHeap::StartQueryBatch(), this helpful warning exists to remind you about that. Remove it when this is fixed.
+[2019.04.10-15.23.08:910][  0]LogD3D12RHI: Creating Pipeline Library from existing disk cache (864 KiB).
+[2019.04.10-15.23.08:911][  0]LogD3D12RHI: Reading 154 Graphics PSO(s) from the disk cache.
+[2019.04.10-15.23.08:912][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 17 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.10-15.23.08:912][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 19 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.10-15.23.08:912][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 15 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.10-15.23.08:913][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 13 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.10-15.23.08:913][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 19 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.10-15.23.08:913][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 23 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.10-15.23.08:914][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 21 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.10-15.23.08:914][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 13 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.10-15.23.08:915][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 15 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.10-15.23.08:915][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 13 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.10-15.23.08:916][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 17 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.10-15.23.08:916][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 15 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.04.10-15.23.08:916][  0]LogD3D12RHI: Reading 3 Compute PSO(s) from the disk cache.
+[2019.04.10-15.23.08:917][  0]LogD3D12RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.10-15.23.08:917][  0]LogWindows: EnumDisplayDevices:
+[2019.04.10-15.23.08:917][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.04.10-15.23.08:918][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.04.10-15.23.08:919][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.04.10-15.23.08:919][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.10-15.23.08:919][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2019.04.10-15.23.08:919][  0]LogD3D12RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.10-15.23.08:920][  0]LogD3D12RHI:      Driver Date: Unknown
+[2019.04.10-15.23.08:920][  0]LogRHI: Texture pool is 1623 MB (70% of 2319 MB)
+[2019.04.10-15.23.08:920][  0]LogD3D12RHI: Async texture creation enabled
+[2019.04.10-15.23.08:941][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (G:/28.03.19/the-game-player-mechanics/Intermediate/Shaders/WorkingDirectory/28432/).
+[2019.04.10-15.23.08:941][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tomje/AppData/Local/Temp/UnrealShaderWorkingDir/5A4A2E124F43AC701CEFBF8D50D5C539/'.
+[2019.04.10-15.23.12:284][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.10-15.23.12:337][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.10-15.23.12:379][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.10-15.23.12:413][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.10-15.23.12:460][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.10-15.23.12:500][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.10-15.23.12:534][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.10-15.23.12:569][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.10-15.23.12:586][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.10-15.23.12:793][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-15.23.12:793][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-15.23.12:793][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-15.23.12:793][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-15.23.12:793][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-15.23.12:793][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-15.23.12:793][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-15.23.12:793][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-15.23.12:793][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-15.23.12:793][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-15.23.12:793][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-15.23.12:793][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-15.23.12:793][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-15.23.12:793][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-15.23.12:793][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-15.23.12:793][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-15.23.12:793][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-15.23.12:793][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-15.23.12:797][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.10-15.23.12:901][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.10-15.23.12:901][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.10-15.23.12:959][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.10-15.23.12:959][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.10-15.23.12:990][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.10-15.23.13:019][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.10-15.23.13:050][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.10-15.23.13:081][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.10-15.23.13:103][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.10-15.23.13:103][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.10-15.23.13:297][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.10-15.23.13:298][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.10-15.23.13:298][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.10-15.23.15:497][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.10-15.23.15:614][  0]LogDerivedDataCache: Loaded boot cache 0.12s 72MB C:/Users/tomje/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.10-15.23.15:615][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tomje/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.10-15.23.15:615][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/28.03.19/the-game-player-mechanics/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.10-15.23.15:615][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.10-15.23.15:615][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/28.03.19/the-game-player-mechanics/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.10-15.23.15:615][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.10-15.23.15:653][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.10-15.23.15:667][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tomje/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.10-15.23.15:667][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.10-15.23.15:667][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.10-15.23.15:707][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.10-15.23.15:710][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.10-15.23.15:725][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.10-15.23.15:908][  0]LogAssetRegistry: FAssetRegistry took 0.0313 seconds to start up
+[2019.04.10-15.23.16:705][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.10-15.23.17:158][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.10-15.23.17:172][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.10-15.23.17:172][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.10-15.23.17:172][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.10-15.23.17:172][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.10-15.23.17:217][  0]LogNetVersion: TheGame 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2075402516)
+[2019.04.10-15.23.19:069][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.783315 seconds
+[2019.04.10-15.23.19:083][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.10-15.23.19:083][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.04.10-15.23.19:083][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.10-15.23.22:317][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.10-15.23.22:334][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.10-15.23.23:922][  0]SourceControl: Source control is disabled
+[2019.04.10-15.23.23:922][  0]SourceControl: Source control is disabled
+[2019.04.10-15.23.23:927][  0]SourceControl: Source control is disabled
+[2019.04.10-15.23.23:930][  0]SourceControl: Source control is disabled
+[2019.04.10-15.23.24:354][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.10-15.23.24:863][  0]LogOcInput: OculusInput pre-init called
+[2019.04.10-15.23.25:098][  0]LogEngine: Initializing Engine...
+[2019.04.10-15.23.25:102][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2019.04.10-15.23.25:108][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.10-15.23.25:108][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.10-15.23.25:109][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.10-15.23.25:109][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.10-15.23.25:692][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.10-15.23.25:746][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.10-15.23.25:866][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.10-15.23.26:543][  0]LogInit: FAudioDevice initialized.
+[2019.04.10-15.23.26:543][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.10-15.23.26:813][  0]LogDerivedDataCache: Saved boot cache 0.27s 73MB C:/Users/tomje/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.10-15.23.26:814][  0]LogInit: Texture streaming: Enabled
+[2019.04.10-15.23.26:875][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.10-15.23.26:924][  0]LogInit: Transaction tracking system initialized
+[2019.04.10-15.23.27:046][  0]BlueprintLog: New page: Editor Load
+[2019.04.10-15.23.27:582][  0]LocalizationService: Localization service is disabled
+[2019.04.10-15.23.28:441][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.10-15.23.28:441][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.10-15.23.28:441][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.10-15.23.28:442][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.10-15.23.28:442][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.10-15.23.28:442][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.10-15.23.28:442][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.10-15.23.28:852][  0]LogFileCache: Scanning file cache for directory 'G:/28.03.19/the-game-player-mechanics/Content/' took 0.02s
+[2019.04.10-15.23.28:852][  0]SourceControl: Source control is disabled
+[2019.04.10-15.23.28:852][  0]Cmd: MAP LOAD FILE="G:/28.03.19/the-game-player-mechanics/Content/TopDownCPP/Maps/TheGameMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.10-15.23.28:916][  0]LightingResults: New page: Lighting Build
+[2019.04.10-15.23.28:927][  0]MapCheck: New page: Map Check
+[2019.04.10-15.23.28:927][  0]LightingResults: New page: Lighting Build
+[2019.04.10-15.23.30:971][  0]LogMaterial: Display: Missing cached shader map for material MinimapMat, compiling. 
+[2019.04.10-15.23.31:848][  0]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.04.10-15.23.31:848][  0]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.04.10-15.23.31:946][  0]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.10-15.23.32:091][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.10-15.23.32:281][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.10-15.23.32:775][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 493.763ms to complete.
+[2019.04.10-15.23.32:775][  0]LogFileHelpers: Loading map 'TheGameMap' took 3.924
+[2019.04.10-15.23.33:150][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-15.23.33:179][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-15.23.33:202][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-15.23.33:229][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-15.23.33:299][  0]LogCollectionManager: Loaded 0 collections in 0.007082 seconds
+[2019.04.10-15.23.33:386][  0]LogFileCache: Scanning file cache for directory 'G:/28.03.19/the-game-player-mechanics/Saved/Collections/' took 0.01s
+[2019.04.10-15.23.33:386][  0]LogFileCache: Scanning file cache for directory 'G:/28.03.19/the-game-player-mechanics/Content/Developers/tomje/Collections/' took 0.01s
+[2019.04.10-15.23.33:386][  0]LogFileCache: Scanning file cache for directory 'G:/28.03.19/the-game-player-mechanics/Content/Collections/' took 0.01s
+[2019.04.10-15.23.33:386][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.10-15.23.33:415][  0]LogContentBrowser: Native class hierarchy populated in 0.0287 seconds. Added 2577 classes and 605 folders.
+[2019.04.10-15.23.33:535][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.04.10-15.23.37:200][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2019.04.10-15.23.37:294][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2019.04.10-15.23.37:879][  0]LogSlate: Took 0.000555 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.10-15.23.37:884][  0]LogSlate: Took 0.000560 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.10-15.23.37:946][  0]LogSlate: Took 0.044791 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.10-15.23.38:458][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2019.04.10-15.23.38:579][  0]LogRenderer: Reallocating scene render targets to support 936x464 Format 10 NumSamples 1 (Frame:1).
+[2019.04.10-15.23.38:745][  0]LogSlate: Took 0.026345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.10-15.23.39:029][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.04.10-15.23.39:029][  0]LogLoad: (Engine Initialization) Total time: 39.04 seconds
+[2019.04.10-15.23.39:029][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.10-15.23.39:121][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.10-15.23.44:245][198]LogAssetRegistry: Asset discovery search completed in 28.3591 seconds
+[2019.04.10-15.23.44:253][198]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.10-15.23.44:254][198]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000169 seconds (updated 0 objects)
+[2019.04.10-15.23.51:242][524]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-15.23.51:444][536]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.10-15.23.51:476][536]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-15.23.51:477][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-15.23.51:491][536]PIE: New page: PIE session: TheGameMap (10 Apr 2019 17:23:51)
+[2019.04.10-15.23.51:491][536]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.10-15.23.51:566][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074643s)
+[2019.04.10-15.23.51:567][536]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.10-15.23.51:567][536]LogPlayLevel: PIE: World Init took: (0.001318s)
+[2019.04.10-15.23.51:567][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.076256s)
+[2019.04.10-15.23.51:688][536]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.10-15.23.51:949][536]LogInit: FAudioDevice initialized.
+[2019.04.10-15.23.52:004][536]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.10-15.23.52:009][536]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.10-16.23.52
+[2019.04.10-15.23.52:009][536]LogWorld: Bringing up level for play took: 0.002129
+[2019.04.10-15.23.52:065][536]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 10 classes and 0 folders.
+[2019.04.10-15.23.52:214][536]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap 1.203
+[2019.04.10-15.23.52:215][536]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-15.23.56:522][733]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-15.23.56:523][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-15.23.56:603][733]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.10-15.23.56:603][733]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-15.23.56:658][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-15.23.56:698][734]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.04.10-15.24.01:300][  2]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-15.24.01:523][ 11]LogSlate: Took 0.017412 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.10-15.24.01:555][ 11]LogAssetEditorManager: Opening Asset editor for Class /Script/TheGame.Achievements
+[2019.04.10-15.25.55:283][655]LogSlate: Took 0.045133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.10-15.26.01:438][975]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AchievementsBP.AchievementsBP
+[2019.04.10-15.26.03:087][975]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 116 classes and 0 folders.
+[2019.04.10-15.26.05:313][975]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.04.10-15.26.05:621][975]LogRenderer: Reallocating scene render targets to support 936x524 Format 10 NumSamples 1 (Frame:1).
+[2019.04.10-15.26.09:504][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AchievementsBP" FILE="G:/28.03.19/the-game-player-mechanics/Content/AchievementsBP.uasset" SILENT=true
+[2019.04.10-15.26.10:909][ 54]LogSavePackage: Moving 'G:/28.03.19/the-game-player-mechanics/Saved/AchievementsBPCE23B5D346B8539FFF992BBB2907B1DB.tmp' to 'G:/28.03.19/the-game-player-mechanics/Content/AchievementsBP.uasset'
+[2019.04.10-15.39.39:841][684]LogHttp: Warning: 00000244A8FACCC0: request has been successfully processed. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFA5D915D-4A7D-2BDB-92D3-3D8B1C05754B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=60bd872546dd76e5a4f4d6a8fa3b362f%7C55bb19e164c9466fbcadc0b2d9237978%7C3f0bbeaa-0fa8-46e9-9ba5-8effceb3e44e&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 502, content length: 138, actual payload size: 138
+[2019.04.10-15.39.39:842][684]LogHttp: Warning: 00000244A8FACCC0 Response Header Server: awselb/2.0
+[2019.04.10-15.39.39:842][684]LogHttp: Warning: 00000244A8FACCC0 Response Header Date: Wed, 10 Apr 2019 15:39:41 GMT
+[2019.04.10-15.39.39:842][684]LogHttp: Warning: 00000244A8FACCC0 Response Header Content-Type: text/html
+[2019.04.10-15.39.39:842][684]LogHttp: Warning: 00000244A8FACCC0 Response Header Content-Length: 138
+[2019.04.10-15.39.39:842][684]LogHttp: Warning: 00000244A8FACCC0 Response Header Connection: keep-alive
+[2019.04.10-15.44.49:830][665]LogHotReload: New module detected: UE4Editor-TheGame-3947.dll
+[2019.04.10-15.44.53:226][676]LogHotReload: Starting Hot-Reload from IDE
+[2019.04.10-15.44.53:536][676]LogClass: Could not find existing class Achievements in package /Script/TheGame for HotReload, assuming new class
+[2019.04.10-15.44.53:564][676]LogHotReload: Re-instancing Achievements after hot-reload.
+[2019.04.10-15.44.54:028][676]LogContentBrowser: Native class hierarchy updated for 'TheGame' in 0.0007 seconds. Added 5 classes and 2 folders.
+[2019.04.10-15.44.54:033][676]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.04.10-15.44.54:850][676]LogContentBrowser: Native class hierarchy populated in 0.0194 seconds. Added 2578 classes and 607 folders.
+[2019.04.10-15.44.54:910][676]Display: HotReload took  1.7s.
+[2019.04.10-20.32.08:041][ 72]LogHttp: Warning: 00000244ADB0A0C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-20.32.08:041][ 72]LogHttp: Warning: 00000244ADB0A0C0: libcurl info message cache 0 (Connection 128 seems to be dead!)
+[2019.04.10-20.32.08:041][ 72]LogHttp: Warning: 00000244ADB0A0C0: libcurl info message cache 1 (Closing connection 128)
+[2019.04.10-20.32.08:041][ 72]LogHttp: Warning: 00000244ADB0A0C0: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-20.32.08:041][ 72]LogHttp: Warning: 00000244ADB0A0C0: libcurl info message cache 3 (Closing connection 129)
+[2019.04.10-20.36.33:419][298]BlueprintLog: New page: Compile AchievementsBP
+[2019.04.10-20.36.34:548][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AchievementsBP" FILE="G:/28.03.19/the-game-player-mechanics/Content/AchievementsBP.uasset" SILENT=true
+[2019.04.10-20.36.35:079][300]LogSavePackage: Moving 'G:/28.03.19/the-game-player-mechanics/Saved/AchievementsBP4271CECC423FEFB5A21B018DAD4526F7.tmp' to 'G:/28.03.19/the-game-player-mechanics/Content/AchievementsBP.uasset'
+[2019.04.10-20.45.58:470][159]LogHotReload: New module detected: UE4Editor-TheGame-5562.dll
+[2019.04.10-20.46.02:556][172]LogHotReload: Starting Hot-Reload from IDE
+[2019.04.10-20.46.02:956][172]LogContentBrowser: Native class hierarchy updated for 'TheGame' in 0.0008 seconds. Added 5 classes and 2 folders.
+[2019.04.10-20.46.02:962][172]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.04.10-20.46.03:740][172]LogContentBrowser: Native class hierarchy populated in 0.0196 seconds. Added 2578 classes and 607 folders.
+[2019.04.10-20.46.03:801][172]Display: HotReload took  1.2s.
+[2019.04.10-20.46.09:935][261]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.10-20.46.09:988][261]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-20.46.09:989][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-20.46.09:989][261]PIE: New page: PIE session: TheGameMap (10 Apr 2019 22:46:09)
+[2019.04.10-20.46.09:989][261]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.10-20.46.10:052][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061777s)
+[2019.04.10-20.46.10:054][261]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.10-20.46.10:054][261]LogPlayLevel: PIE: World Init took: (0.002668s)
+[2019.04.10-20.46.10:055][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.064924s)
+[2019.04.10-20.46.10:333][261]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.10-20.46.10:602][261]LogInit: FAudioDevice initialized.
+[2019.04.10-20.46.10:642][261]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.10-20.46.10:646][261]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.10-21.46.10
+[2019.04.10-20.46.10:647][261]LogWorld: Bringing up level for play took: 0.002513
+[2019.04.10-20.46.10:666][261]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap 1.662
+[2019.04.10-20.46.10:667][261]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-20.46.13:516][420]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-20.46.13:517][420]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-20.46.13:563][420]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.10-20.46.13:563][420]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-20.46.13:646][420]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-20.46.13:723][421]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.04.10-20.46.16:382][560]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.10-20.46.18:791][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-20.46.21:199][804]LogEditor: Attempting to add actor of class 'Achievements' to level at -800.00,-780.00,170.00
+[2019.04.10-20.46.21:904][837]LogEditor: Attempting to add actor of class 'Achievements' to level at -580.00,-460.00,170.00
+[2019.04.10-20.46.24:596][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-20.46.24:794][933]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.10-20.46.24:833][933]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-20.46.24:833][933]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-20.46.24:834][933]PIE: New page: PIE session: TheGameMap (10 Apr 2019 22:46:24)
+[2019.04.10-20.46.24:834][933]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.10-20.46.24:865][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031241s)
+[2019.04.10-20.46.24:867][933]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.10-20.46.24:867][933]LogPlayLevel: PIE: World Init took: (0.002032s)
+[2019.04.10-20.46.24:868][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.033788s)
+[2019.04.10-20.46.25:002][933]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.10-20.46.25:243][933]LogInit: FAudioDevice initialized.
+[2019.04.10-20.46.25:287][933]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.10-20.46.25:291][933]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.10-21.46.25
+[2019.04.10-20.46.25:291][933]LogWorld: Bringing up level for play took: 0.002104
+[2019.04.10-20.46.25:309][933]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap 0.304
+[2019.04.10-20.46.25:310][933]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-20.46.30:297][220]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-20.46.30:297][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-20.46.30:344][220]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.10-20.46.30:344][220]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-20.46.30:411][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-20.46.30:455][221]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.04.10-20.46.32:406][328]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.10-20.46.37:457][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-20.46.39:469][656]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-20.46.40:320][704]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.10-20.46.40:357][704]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-20.46.40:357][704]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-20.46.40:357][704]PIE: New page: PIE session: TheGameMap (10 Apr 2019 22:46:40)
+[2019.04.10-20.46.40:358][704]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.10-20.46.40:380][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022696s)
+[2019.04.10-20.46.40:381][704]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.10-20.46.40:382][704]LogPlayLevel: PIE: World Init took: (0.001177s)
+[2019.04.10-20.46.40:382][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.024181s)
+[2019.04.10-20.46.40:513][704]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.10-20.46.40:753][704]LogInit: FAudioDevice initialized.
+[2019.04.10-20.46.40:790][704]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.10-20.46.40:794][704]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.10-21.46.40
+[2019.04.10-20.46.40:794][704]LogWorld: Bringing up level for play took: 0.001980
+[2019.04.10-20.46.40:812][704]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap -0.193
+[2019.04.10-20.46.40:812][704]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-20.46.42:574][801]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-20.46.42:575][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-20.46.42:622][801]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.10-20.46.42:622][801]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-20.46.42:694][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-20.46.42:740][802]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.04.10-20.46.44:376][894]LogEditorViewport: Clicking on Actor (LMB): AchievementsBP_C (AchievementsBP)
+[2019.04.10-20.46.45:826][978]Cmd: DELETE
+[2019.04.10-20.46.45:826][978]Cmd: ACTOR DELETE
+[2019.04.10-20.46.46:017][978]LogEditorActor: Deleted Actor: AchievementsBP_C
+[2019.04.10-20.46.46:081][978]LogEditorActor: Deleted 1 Actors (0.142 secs)
+[2019.04.10-20.46.50:916][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-20.47.18:839][787]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.10-20.47.20:375][787]LogSavePackage: Moving 'G:/28.03.19/the-game-player-mechanics/Saved/TheGameMap_Auto193DE79FC425C30EEE28AB4A32EE636FA.tmp' to 'G:/28.03.19/the-game-player-mechanics/Saved/Autosaves/Game/TopDownCPP/Maps/TheGameMap_Auto1.umap'
+[2019.04.10-20.47.21:367][787]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TheGameMap' took 2.098
+[2019.04.10-20.47.21:367][787]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.098
+[2019.04.10-20.48.01:094][139]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-20.48.01:299][151]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.10-20.48.01:345][151]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-20.48.01:346][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-20.48.01:346][151]PIE: New page: PIE session: TheGameMap (10 Apr 2019 22:48:01)
+[2019.04.10-20.48.01:346][151]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap
+[2019.04.10-20.48.01:369][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022807s)
+[2019.04.10-20.48.01:370][151]LogAIModule: Creating AISystem for world TheGameMap
+[2019.04.10-20.48.01:371][151]LogPlayLevel: PIE: World Init took: (0.001584s)
+[2019.04.10-20.48.01:371][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TheGameMap.TheGameMap to /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap (0.024670s)
+[2019.04.10-20.48.01:494][151]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.10-20.48.01:747][151]LogInit: FAudioDevice initialized.
+[2019.04.10-20.48.01:785][151]LogLoad: Game class is 'WaveGameMode_C'
+[2019.04.10-20.48.01:788][151]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap.TheGameMap up for play (max tick rate 60) at 2019.04.10-21.48.01
+[2019.04.10-20.48.01:788][151]LogWorld: Bringing up level for play took: 0.002148
+[2019.04.10-20.48.01:807][151]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TheGameMap 0.803
+[2019.04.10-20.48.01:808][151]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-20.48.07:187][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-20.48.07:188][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-20.48.07:239][463]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.10-20.48.07:239][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap' with GeneratedClass '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TheGameMap.TheGameMap:PersistentLevel.TheGameMap'
+[2019.04.10-20.48.07:312][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-20.48.07:358][464]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.04.10-21.37.31:028][862]LogHttp: Warning: 00000244815E96C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-21.37.31:028][862]LogHttp: Warning: 00000244815E96C0: libcurl info message cache 0 (Connection 145 seems to be dead!)
+[2019.04.10-21.37.31:028][862]LogHttp: Warning: 00000244815E96C0: libcurl info message cache 1 (Closing connection 145)
+[2019.04.10-21.37.31:029][862]LogHttp: Warning: 00000244815E96C0: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-21.37.31:029][862]LogHttp: Warning: 00000244815E96C0: libcurl info message cache 3 (Closing connection 146)
+[2019.04.10-21.38.20:432][149]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-21.41.15:137][792]LogHotReload: New module detected: UE4Editor-TheGame-1526.dll
+[2019.04.10-21.41.23:623][818]LogHotReload: Starting Hot-Reload from IDE
+[2019.04.10-21.41.24:090][818]LogClass: Could not find existing class Achievements in package /Script/TheGame for HotReload, assuming new class
+[2019.04.10-21.41.24:155][818]LogHotReload: Re-instancing Achievements after hot-reload.
+[2019.04.10-21.41.25:086][818]LogContentBrowser: Native class hierarchy updated for 'TheGame' in 0.0010 seconds. Added 5 classes and 2 folders.
+[2019.04.10-21.41.25:092][818]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.04.10-21.41.26:131][818]LogContentBrowser: Native class hierarchy populated in 0.0294 seconds. Added 2578 classes and 607 folders.
+[2019.04.10-21.41.26:220][818]Display: HotReload took  2.6s.
+[2019.04.10-21.42.19:099][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.10-21.43.19:854][427]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-21.43.25:909][694]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Player/Hud/PlayerHud.PlayerHud
+[2019.04.10-21.44.02:978][695]LogSlate: Took 0.395150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.04.10-21.46.16:387][393]BlueprintLog: New page: Compile AchievementsBP
+[2019.04.10-21.47.33:712][139]LogSavePackage: Moving 'G:/28.03.19/the-game-player-mechanics/Saved/TheGameMap_Auto2165FA0954B1C2CAFFCD4F9A7362931A2.tmp' to 'G:/28.03.19/the-game-player-mechanics/Saved/Autosaves/Game/TopDownCPP/Maps/TheGameMap_Auto2.umap'
+[2019.04.10-21.47.33:908][139]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TheGameMap' took 1.514
+[2019.04.10-21.47.33:908][139]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.514
+[2019.04.10-21.47.33:940][139]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AchievementsBP] ([1] browsable assets)...
+[2019.04.10-21.47.33:940][139]OBJ SavePackage: Finished generating thumbnails for package [/Game/AchievementsBP]
+[2019.04.10-21.47.33:940][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AchievementsBP" FILE="G:/28.03.19/the-game-player-mechanics/Saved/Autosaves/Game/AchievementsBP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.04.10-21.47.34:059][139]LogSavePackage: Moving 'G:/28.03.19/the-game-player-mechanics/Saved/AchievementsBP_Auto28384D06F45EC44B9A25C6A9243BB3342.tmp' to 'G:/28.03.19/the-game-player-mechanics/Saved/Autosaves/Game/AchievementsBP_Auto2.uasset'
+[2019.04.10-21.47.34:062][139]LogFileHelpers: Auto-saving content packages took 0.123
+[2019.04.10-21.55.15:891][779]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.10-21.55.49:034][725]BlueprintLog: New page: Compile AchievementsBP
+[2019.04.10-21.55.52:248][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AchievementsBP" FILE="G:/28.03.19/the-game-player-mechanics/Content/AchievementsBP.uasset" SILENT=true
+[2019.04.10-21.55.52:364][808]LogSavePackage: Moving 'G:/28.03.19/the-game-player-mechanics/Saved/AchievementsBP0F4C88D14886450E2F3F7BBF2F7721F7.tmp' to 'G:/28.03.19/the-game-player-mechanics/Content/AchievementsBP.uasset'
+[2019.04.10-21.55.53:748][850]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-21.55.56:415][977]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-21.56.01:592][216]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/Blueprints/WavePlayerController.WavePlayerController
+[2019.04.10-21.56.02:926][217]LogSlate: Took 0.026085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.10-21.56.11:393][522]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-21.56.27:006][231]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Projectile.Projectile
+[2019.04.10-21.57.11:469][ 62]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-21.57.11:724][ 68]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyTheGamePlayerController.MyTheGamePlayerController
+[2019.04.10-21.57.44:657][958]LogSlate: Took 0.025719 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.04.10-21.58.18:971][960]BlueprintLog: New page: Compile MyTheGamePlayerController
+[2019.04.10-21.58.21:044][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTheGamePlayerController" FILE="G:/28.03.19/the-game-player-mechanics/Content/MyTheGamePlayerController.uasset" SILENT=true
+[2019.04.10-21.58.21:197][998]LogSavePackage: Moving 'G:/28.03.19/the-game-player-mechanics/Saved/MyTheGamePlayerController05B3D7A7412A3263033F138497B583FB.tmp' to 'G:/28.03.19/the-game-player-mechanics/Content/MyTheGamePlayerController.uasset'
+[2019.04.10-21.58.22:063][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-21.59.11:477][584]BlueprintLog: New page: Compile AchievementsBP
+[2019.04.10-21.59.11:516][584]LogBlueprint: Warning: [Compiler AchievementsBP] 'My the Game Player Controller' does not inherit from 'Character' ( Cast To MyTheGamePlayerController  would always fail).
+[2019.04.10-21.59.11:982][584]LogBlueprint: Warning: [Compiler AchievementsBP] [3771.98] Compile of AchievementsBP successful, but with 1 Warning(s) [in 471 ms] (/Game/AchievementsBP.AchievementsBP)
+[2019.04.10-21.59.21:577][934]BlueprintLog: New page: Compile AchievementsBP
+[2019.04.10-21.59.21:646][934]LogBlueprint: Error: [Compiler AchievementsBP] The type of  Object  is undetermined.  Connect something to  Cast To MyTheGamePlayerController  to imply a specific type.
+[2019.04.10-21.59.21:646][934]LogBlueprint: Error: [Compiler AchievementsBP] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2019.04.10-21.59.22:224][934]LogBlueprint: Warning: [Compiler AchievementsBP] [3782.25] Compile of AchievementsBP failed. 2 Fatal Issue(s) 0 Warning(s) [in 646 ms] (/Game/AchievementsBP.AchievementsBP)
+[2019.04.10-21.59.35:058][321]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.04.10-21.59.47:980][693]BlueprintLog: New page: Compile AchievementsBP
+[2019.04.10-21.59.49:055][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AchievementsBP" FILE="G:/28.03.19/the-game-player-mechanics/Content/AchievementsBP.uasset" SILENT=true
+[2019.04.10-21.59.49:135][701]LogSavePackage: Moving 'G:/28.03.19/the-game-player-mechanics/Saved/AchievementsBPD14D076C47FF20A4851DEF80B9315648.tmp' to 'G:/28.03.19/the-game-player-mechanics/Content/AchievementsBP.uasset'
+[2019.04.10-21.59.50:474][749]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-22.00.26:178][386]LogSavePackage: Moving 'G:/28.03.19/the-game-player-mechanics/Saved/TheGameMap_Auto38CC3A270405FC5F2270634AE0ADF2A30.tmp' to 'G:/28.03.19/the-game-player-mechanics/Saved/Autosaves/Game/TopDownCPP/Maps/TheGameMap_Auto3.umap'
+[2019.04.10-22.00.26:424][386]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TheGameMap' took 1.395
+[2019.04.10-22.00.26:424][386]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.395
+[2019.04.10-22.00.30:823][424]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.10-22.09.42:629][355]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-22.10.02:689][401]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/AchievementsDisplay.AchievementsDisplay
+[2019.04.10-22.11.54:883][300]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TheGameMap' took 0.140
+[2019.04.10-22.11.54:887][300]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AchievementsDisplay] ([1] browsable assets)...
+[2019.04.10-22.11.54:887][300]OBJ SavePackage: Finished generating thumbnails for package [/Game/AchievementsDisplay]
+[2019.04.10-22.11.54:887][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AchievementsDisplay" FILE="G:/28.03.19/the-game-player-mechanics/Saved/Autosaves/Game/AchievementsDisplay_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2019.04.10-22.11.55:146][300]LogSavePackage: Moving 'G:/28.03.19/the-game-player-mechanics/Saved/AchievementsDisplay_Auto44623E4364CAD341EDE39839DE1363F74.tmp' to 'G:/28.03.19/the-game-player-mechanics/Saved/Autosaves/Game/AchievementsDisplay_Auto4.uasset'
+[2019.04.10-22.11.55:152][300]LogFileHelpers: Auto-saving content packages took 0.266
+[2019.04.10-22.13.37:842][669]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.04.10-22.20.51:145][746]LogHttp: Warning: 00000244AF129440: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-22.20.51:145][746]LogHttp: Warning: 00000244AF129440: libcurl info message cache 0 (Connection 169 seems to be dead!)
+[2019.04.10-22.20.51:145][746]LogHttp: Warning: 00000244AF129440: libcurl info message cache 1 (Closing connection 169)
+[2019.04.10-22.20.51:146][746]LogHttp: Warning: 00000244AF129440: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.04.10-22.20.51:146][746]LogHttp: Warning: 00000244AF129440: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-22.20.51:146][746]LogHttp: Warning: 00000244AF129440: libcurl info message cache 4 (Closing connection 170)
